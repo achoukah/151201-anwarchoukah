@@ -1,0 +1,49 @@
+// FONTS 
+  
+  $font-grump:          'Rubik', sans-serif;
+  $font-roboto_mono:    'Roboto Mono', monospace;
+
+  $font-head:           $font-grump;
+  $font-body:           $font-grump;
+  $font-code:           $font-roboto_mono;
+
+
+// VARIABLES
+  
+  $rd-md: #c00;
+  $rd-lt: lighten($rd-md, 10%);
+  $rd-dk: darken($rd-md, 10%);
+
+  $wh-md: #ccc;
+  $wh-lt: lighten($wh-md, 20%);
+  $wh-dk: darken($wh-md, 20%);
+
+  $wh-tr-1: rgba($wh-lt, .1);
+  $wh-tr-2: rgba($wh-lt, .2);
+  $wh-tr-3: rgba($wh-lt, .3);
+  $wh-tr-4: rgba($wh-lt, .4);
+  $wh-tr-5: rgba($wh-lt, .5);
+  $wh-tr-6: rgba($wh-lt, .6);
+  $wh-tr-7: rgba($wh-lt, .7);
+  $wh-tr-8: rgba($wh-lt, .8);
+  $wh-tr-9: rgba($wh-lt, .9);
+
+  $bk-md: #333;
+  $bk-lt: lighten($bk-md, 10%);
+  $bk-dk: darken($bk-md, 10%);
+
+  $bk-tr-1: rgba($bk-lt, .1);
+  $bk-tr-2: rgba($bk-lt, .2);
+  $bk-tr-3: rgba($bk-lt, .3);
+  $bk-tr-4: rgba($bk-lt, .4);
+  $bk-tr-5: rgba($bk-lt, .5);
+  $bk-tr-6: rgba($bk-lt, .6);
+  $bk-tr-7: rgba($bk-lt, .7);
+  $bk-tr-8: rgba($bk-lt, .8);
+  $bk-tr-9: rgba($bk-lt, .9);
+
+  $fb: #3b5a94;
+  $tw: #00c7f5;
+  $ig: #517fa4;
+  $go: #d8473c;
+  $pi: #cb2027;

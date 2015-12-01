@@ -1,95 +1,25 @@
-/*
-
-Kirby Starterkit
-
-Author: Bastian Allgeier / Sascha Lack
-URL:    http://getkirby.com
-Email:  support@getkirby.com
-
-*/
-
-
-/* Source Sans Pro
--------------------------------------------------- */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
-}
-
-
-/* Reset
--------------------------------------------------- */
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, nav, section, summary {
-  display: block;
-}
+  display: block; }
 
-
-/* Pix
--------------------------------------------------- */
 img {
   display: block;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-
-/* Links
--------------------------------------------------- */
-a {
-  color: #000;
-  text-decoration: none;
-  transition: color .3s, background .3s, border .3s;
-}
-a:hover {
-  color: red;
-}
-
-
-/* Clearfix
--------------------------------------------------- */
-.cf:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Site
--------------------------------------------------- */
 html {
   height: 101%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Rubik", sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+  -ms-text-size-adjust: 100%; }
+
 body {
   margin: 0 auto;
   font-size: 1.25em;
@@ -97,56 +27,62 @@ body {
   padding: 1.5em;
   max-width: 50em;
   background: #fff;
-  color: #222;
-}
+  color: #222; }
+
+/* 
+
+AnwarChoukah.com - powered by KirbyCMS
+
+Author: Anwar Choukah
+URL:    http://anwarchoukah.com
+Email:  anwarchoukah@gmail.com
 
 
-/* Header
+Based on: 
+Kirby Starterkit 
+
+Author: Bastian Allgeier / Sascha Lack
+URL:    http://getkirby.com
+Email:  support@getkirby.com
+
 -------------------------------------------------- */
-.header {
-  border-bottom: 2px solid red;
-  margin-bottom: 1.5em;
-}
-.logo {
-  display: block;
-  margin-bottom: 1.5em;
-}
-.logo img {
-  width: 2em;
-}
-
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* Navigation
 -------------------------------------------------- */
 .menu a {
   display: block;
-  color: #222;
-}
+  color: #222; }
+
 .menu a:hover {
   color: red;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .menu .active {
-  color: red;
-}
+  color: red; }
+
 .menu li {
-  list-style: none;
-}
+  list-style: none; }
+
 .menu > li {
-  position: relative;
-}
+  position: relative; }
+
 .menu > li > a {
   padding: .35em 0;
   border-top: 1px solid #ddd;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .submenu {
   position: absolute;
   z-index: 1;
   display: none;
-  left: 1em;
-}
+  left: 1em; }
+
 .submenu:before {
   position: absolute;
   z-index: -1;
@@ -155,181 +91,184 @@ body {
   left: 0;
   border-top: .5em solid transparent;
   border-bottom: .5em solid transparent;
-  border-left: .5em solid #222;
-}
+  border-left: .5em solid #222; }
+
 .submenu li {
-  border-bottom: 1px solid #444;
-}
+  border-bottom: 1px solid #444; }
+
 .submenu a {
   padding: .5em 1.5em;
   font-size: .9em;
   font-weight: 300;
   color: #fff;
   background: #222;
-  white-space: nowrap;
-}
+  white-space: nowrap; }
+
 .submenu a:hover {
   background: #333;
-  color: #fff;
-}
+  color: #fff; }
 
 @media screen and (min-width: 40em) {
   body {
-    padding: 3em;
-  }
+    padding: 3em; }
+
   .logo {
-    float: left;
-  }
+    float: left; }
+
   .menu {
     float: right;
-    margin-right: -1em;
-  }
+    margin-right: -1em; }
+
   .menu > li {
-    float: left;
-  }
+    float: left; }
+
   .menu > li > a {
     padding: .35em 1em;
-    border: 0;
-  }
+    border: 0; }
+
   .menu > li:hover .submenu {
-    display: block;
-  }
-}
-
-
+    display: block; } }
 /* Headings
 -------------------------------------------------- */
 h1 {
   font-size: 2em;
   line-height: 1.25em;
   font-weight: 400;
-  margin-bottom: .5em;
-}
+  margin-bottom: .5em; }
+
 h2 {
   font-size: 2em;
   line-height: 1.25em;
   font-weight: 300;
   margin-bottom: .5em;
-  color: red;
-}
+  color: red; }
+
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
   font-weight: 400;
-  margin-bottom: .5em;
-}
+  margin-bottom: .5em; }
+
 h4 {
   font-size: 1.125em;
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em;
-  color: red;
-}
+  color: red; }
+
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
-  border: 0 !important;
-}
-
-
+  border: 0 !important; }
 
 /* Main
 -------------------------------------------------- */
 .main {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid red;
-}
+  border-bottom: 2px solid red; }
+
 .main hr {
   margin: 3em 0;
   height: 2px;
-  background: #ddd;
-}
+  background: #ddd; }
+
 .main p,
 .main figure,
 .main ul,
 .main ol {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
+
 .main a {
-  border-bottom: 2px solid #ddd;
-}
+  border-bottom: 2px solid #ddd; }
+
 .main a:hover {
-  border-color: #222;
-}
+  border-color: #222; }
 
 /* Text blocks */
 .text ul,
 .text ol {
-  margin-left: 1em;
-}
+  margin-left: 1em; }
 
 /* Project meta
 -------------------------------------------------- */
 .meta {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
+
 .meta li {
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: red;
-}
+  color: red; }
+
 .meta li b {
   font-weight: 400;
   color: #000;
-  padding-right: .25em;
-}
-
+  padding-right: .25em; }
 
 /* Project teaser
 -------------------------------------------------- */
 .teaser {
-  list-style: none;
-}
+  list-style: none; }
+
 .teaser li {
   margin-bottom: 1.5em;
-  list-style: none;
-}
+  list-style: none; }
+
 @media screen and (min-width: 50em) {
   .teaser li {
     float: left;
     width: 30%;
-    margin-left: 5%;
-  }
+    margin-left: 5%; }
+
   .teaser li:first-child {
-    margin-left: 0;
-  }
-}
-
-
+    margin-left: 0; } }
 /* Next/Prev nav
 -------------------------------------------------- */
 .nextprev {
-  padding: 1em 0;
-}
-.nextprev a {
-  border: 0;
-}
-.nextprev .prev {
-  float: left;
-}
-.nextprev .next {
-  float: right;
-}
+  padding: 1em 0; }
 
+.nextprev a {
+  border: 0; }
+
+.nextprev .prev {
+  float: left; }
+
+.nextprev .next {
+  float: right; }
 
 /* Footer
 -------------------------------------------------- */
 .footer {
   padding: 1em 0 6em;
-  font-size: .8em;
-}
+  font-size: .8em; }
+
 .copyright {
-  float: left;
-}
+  float: left; }
+
 .colophon {
-  float: right;
-}
+  float: right; }
+
 .colophon a b {
   color: red;
-  padding-left: .25em;
-}
+  padding-left: .25em; }
+
+/* LINKS */
+a {
+  color: #000;
+  text-decoration: none;
+  transition: all .2s ease-in-out; }
+
+a:hover {
+  color: red; }
+
+/* Header
+-------------------------------------------------- */
+.header {
+  border-bottom: 2px solid red;
+  margin-bottom: 1.5em; }
+
+.logo {
+  display: block;
+  margin-bottom: 1.5em; }
+
+.logo img {
+  width: 2em; }
