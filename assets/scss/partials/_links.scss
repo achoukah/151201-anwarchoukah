@@ -1,10 +1,10 @@
 /* LINKS */
 
 a {
-  color: #000;
+  color: $color-link;
   text-decoration: none;
   transition: all .2s ease-in-out;
 }
 a:hover {
-  color: red;
+  color: $color-link_hover;
 }
