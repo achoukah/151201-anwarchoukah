@@ -2,13 +2,23 @@
 -------------------------------------------------- */
 
 .header {
-  border-bottom: medium solid $colour-accent;
-  margin-bottom: 1.5em;
+  border-top: medium solid $colour-accent;
+  background: $wh-tr-8;
+  width: calc(100vw - 2em);
+  margin: 1em;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  
+  @media screen and (min-width: 40em) {
+    
+  }
 }
 .logo {
   display: block;
-  margin-bottom: 1.5em;
-}
-.logo img {
-  width: 2em;
+  // margin-bottom: 1.5em;
+
+  img {
+    width: 2em;
+  }
 }

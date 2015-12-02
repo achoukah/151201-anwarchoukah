@@ -1,26 +1,27 @@
 /* Headings
 -------------------------------------------------- */
 h1 {
-  font-size: 2em;
+  font-size: 1.602em;
   line-height: 1.25em;
-  margin-bottom: .5em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.424em;
   line-height: 1.25em;
-  margin-bottom: .5em;
   color: $colour-accent;
 }
 h3 {
-  font-size: 1.4em;
+  font-size: 1.266em;
   line-height: 1.5em;
-  margin-bottom: .5em;
 }
 h4 {
   font-size: 1.125em;
   line-height: 1.5em;
-  margin-bottom: .5em;
   color: $colour-accent;
+}
+h1, h2, h3, h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: .5em;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
@@ -47,17 +48,14 @@ code {
   background: $wh-lt;
   display: inline-block;
   line-height: 1.3;
-
-
-  
-  
 }
+
 pre {
   margin: 0 0 2rem 0;
   
   code {
     padding: 1rem;
-    white-space: pre-wrap;       /* css-3 */
+    white-space: pre-wrap;
     width: 100%;
   }
 }

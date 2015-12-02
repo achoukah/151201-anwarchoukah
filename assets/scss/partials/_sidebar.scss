@@ -1,0 +1,83 @@
+.main {
+  aside {
+    flex: 0 0 100%;
+
+    a {
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    ul {
+      display: block;
+    }
+
+    li {
+      
+    }
+    #pinboard_linkroll {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+      // align-items: flex-start;
+      margin: 0 -0.5em;
+      font-size: 0.889em;
+      
+    }
+    .pin-item {
+      flex: 0 0 calc(33.33333% - 1em);
+      padding: 1em;
+      margin: 0.5em;
+      border: thin solid $bk-tr-2;
+      line-height: 1.2;
+      box-shadow: 0 0 3em -0.5em $bk-tr-1;
+
+      @media screen and (max-width: 50rem) {
+        flex: 0 0 calc(50% - 1em);
+      }
+
+      @media only screen
+      and (min-width : 320px)
+      and (max-width : 480px) {
+        flex: 0 0 calc(100% - 1em);
+      }
+
+      br {
+        display: none;
+      }
+    }
+    .pin-title {
+      display: block;
+      margin-bottom: .5em;
+      padding-bottom: .5em;
+    }
+    .pin-description {
+      font-size: 0.9em;
+      margin: 0 0 0.5em 0;
+      display: block;
+
+      
+    }
+    .pin-tag {
+      display: inline-block;
+      border: thin solid currentColor;
+      color: $bk-tr-3;
+      font-size: 0.8em;
+      line-height: 1;
+      padding: 0.4em 0.6em;
+      box-shadow: none;
+      float: left;
+      margin: 0 0.1em 0.2em 0;
+
+      &:hover {
+        color: $bk-tr-8;
+      }
+    }
+  }
+  .twitter-timeline {
+
+  }
+}

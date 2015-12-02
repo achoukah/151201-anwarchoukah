@@ -1,10 +1,12 @@
 /* Main
 -------------------------------------------------- */
 .main {
-  padding-bottom: 1.5em;
-  border-bottom: medium solid $colour-accent;
   flex: 1;
   display: flex;
+  flex-direction: column;
+  max-width: 80em;
+  padding: 3em 3em 1.5em;
+  margin: auto;
 
   hr {
     margin: 3em 0;
@@ -39,5 +41,6 @@ figure {
   figcaption {
     font-size: .9em;
     padding: .5em 1em;
+    color: $bk-tr-5;
   }
 }

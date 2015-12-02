@@ -4,11 +4,11 @@ Title: About
 
 Text: 
 
-(image: me.jpg caption: That's me doing something I love)
-
 I am a designer, currently working for (link: http://thesun.co.uk text: The Sun title: The Sun website, where Anwar Choukah works as a Deputy Creative Director) as Deputy Creative Director, where I've been for well over ten years.
 
-I am the proud father of two **lovely daughters** and proud partner of my girlfriend.
+(image: me.jpg caption: That's me doing something I love)
+
+I am the proud father of two lovely daughters and proud partner of my girlfriend.
 
 Here's a code block that I *really* like. It uses flex-box to make sure the footer stays at the foot of your browser window:
 

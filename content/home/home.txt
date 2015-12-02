@@ -2,6 +2,6 @@ Title: Coming soon
 
 ----
 
-Text: I'm currently working on my personal site using (link: http://getkirby.com/docs text: KirbyCMS)
+Text: I'm currently working on my personal site using (link: http://getkirby.com/docs text: KirbyCMS).
 
-In the meantime, you can check me out on (twitter: @achoukah text: Twitter), (link: //instagram.com/garbad text: Instagram) or (linkedin: @achoukah text: LinkedIn)
+In the meantime, you can check me out on (twitter: @achoukah text: Twitter), (link: //instagram.com/garbad text: Instagram), (link: //GitHub.com/achoukah text: GitHub) or (link: https://uk.linkedin.com/in/anwarchoukah text: LinkedIn title: Anwar Choukah on LinkedIn).
