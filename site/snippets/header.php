@@ -9,7 +9,7 @@
   <meta name="description" content="<?php echo $site->description()->html()?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html()?>">
 
-  <link href='https://fonts.googleapis.com/css?family=Rubik:300,500,700,300italic,500italic|Roboto+Mono:500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rubik:300,500,700,300italic,500italic|Roboto+Mono:300' rel='stylesheet' type='text/css'>
 
 <?php echo css('assets/css/main.css')?>
 

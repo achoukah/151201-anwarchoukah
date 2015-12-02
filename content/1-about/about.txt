@@ -2,15 +2,44 @@ Title: About
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+Text: 
 
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+(image: me.jpg caption: That's me doing something I love)
 
-(image: about.jpg)
+I am a designer, currently working for (link: http://thesun.co.uk text: The Sun title: The Sun website, where Anwar Choukah works as a Deputy Creative Director) as Deputy Creative Director, where I've been for well over ten years.
 
-### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+I am the proud father of two **lovely daughters** and proud partner of my girlfriend.
 
-#### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+Here's a code block that I *really* like. It uses flex-box to make sure the footer stays at the foot of your browser window:
+
+```
+/* HTML */
+
+<body>
+  <header>…</header>
+  <main class="Site-content">…</main>
+  <footer>…</footer>
+</body>
+
+
+/* CSS */
+
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+```
+Code by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton).
+
+My favourite CSS declaration is ``` box-sizing: border-box; ``` and it should be yours too.
+
+You might find me weird, but ```flex-box``` is a lot of fun.
+
+I really want ``` float: bottom;``` to become a reality. Bend your head around that..
+
+In the meantime, you can check me out on (twitter: @achoukah text: Twitter), (link: //instagram.com/garbad text: Instagram), (link: //GitHub.com/achoukah text: GitHub) or (link: https://uk.linkedin.com/in/anwarchoukah text: LinkedIn title: Anwar Choukah on LinkedIn).

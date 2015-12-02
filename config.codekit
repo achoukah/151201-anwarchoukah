@@ -75,6 +75,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/scss\/partials\/_main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_main.scss",
+		"outputAbbreviatedPath": "\/assets\/scss\/css\/_main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/scss\/partials\/_meta.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_meta.scss",
+		"outputAbbreviatedPath": "\/assets\/scss\/css\/_meta.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/scss\/partials\/_navigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -214,79 +246,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/1-project-a\/forrest.jpg": {
+	"\/content\/1-about\/me.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81463,
+		"inputAbbreviatedPath": "\/content\/1-about\/me.jpg",
+		"outputAbbreviatedPath": "\/content\/1-about\/me.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content\/projects\/1-project-a\/forrest.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 280900,
-		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/forrest.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/forrest.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/1-project-a\/forrest.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/1-project-a\/forrest.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/1-project-a\/green.jpg": {
+	"\/content\/projects\/1-project-a\/green.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 306670,
-		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/green.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/green.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/1-project-a\/green.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/1-project-a\/green.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/1-project-a\/the-sea.jpg": {
+	"\/content\/projects\/1-project-a\/the-sea.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 263038,
-		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/the-sea.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/the-sea.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/1-project-a\/the-sea.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/1-project-a\/the-sea.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/2-project-b\/mountains.jpg": {
+	"\/content\/projects\/2-project-b\/mountains.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 169253,
-		"inputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/mountains.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/mountains.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/2-project-b\/mountains.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/2-project-b\/mountains.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/2-project-b\/road.jpg": {
+	"\/content\/projects\/2-project-b\/road.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268073,
-		"inputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/road.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/road.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/2-project-b\/road.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/2-project-b\/road.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/3-project-c\/hightide.jpg": {
+	"\/content\/projects\/3-project-c\/hightide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 208192,
-		"inputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/hightide.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/hightide.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/3-project-c\/hightide.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/3-project-c\/hightide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg": {
+	"\/content\/projects\/3-project-c\/kermit-the-fog.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268191,
-		"inputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg",
-		"outputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg",
+		"inputAbbreviatedPath": "\/content\/projects\/3-project-c\/kermit-the-fog.jpg",
+		"outputAbbreviatedPath": "\/content\/projects\/3-project-c\/kermit-the-fog.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5669,6 +5712,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/site\/snippets\/projects.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/snippets\/sidebar.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/snippets\/sidebar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

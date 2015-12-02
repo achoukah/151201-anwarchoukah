@@ -1,16 +1,20 @@
 html {
-  height: 101%;
   font-family: $font-body;
+  font-size: 62.5%;
   font-weight: 300;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0 auto;
-  font-size: 1.25em;
+  font-size: 1.8em;
   line-height: 1.5em;
   padding: 1.5em;
   max-width: 50em;
-  background: $wh-lt;
-  color: $bk-md;
+  background: $colour-main;
+  color: $colour-alt;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
