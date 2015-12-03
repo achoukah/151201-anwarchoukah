@@ -2,13 +2,15 @@
 -------------------------------------------------- */
 
 .header {
-  border-top: medium solid $colour-accent;
-  background: $wh-tr-8;
+  // border-top: medium solid $colour-accent;
+  background: $wh-tr-9;
   width: calc(100vw - 2em);
   margin: 1em;
-  padding: 1em;
+  padding: 0.5em;
   position: fixed;
   bottom: 0;
+  box-shadow: 0 0 3em -0.5em $bk-tr-1;
+  border: thin solid $bk-tr-1;
   
   @media screen and (min-width: 40em) {
     
@@ -20,5 +22,16 @@
 
   img {
     width: 2em;
+  }
+
+  .site-title {
+    padding: 0.35em 0.5em;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0 0 0 $bl-lt;
+  }
+  &:hover {
+    .site-title {
+      box-shadow: inset 0 -0.2em 0 $bl-lt;
+    }
   }
 }

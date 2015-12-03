@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Anwar Choukah
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Anwar Choukah
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: This is designer Anwar Choukah's personal website.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Anwar Choukah, Web Design, The Sun, Illustration, Drawing, Kirby, CMS, file-based, Pinboard, Instagram, Twitter
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © (date: Year) (link: http://anwarchoukah.com text: Anwar Choukah)

@@ -1,59 +1,66 @@
 /* Navigation
 -------------------------------------------------- */
 
-
-.menu a {
+.menu {
+  a {
   display: block;
   color: $colour-link;
+  transition: all .2s ease-in-out;
+  box-shadow: inset 0 0 0 $bl-lt;
+  }
+  a:hover {
+    color: $colour-link_hover;
+    text-decoration: none;
+    box-shadow: inset 0 -0.2em 0 $bl-lt;
+  }
+  .active {
+    color: $colour-accent;
+  }
+  li {
+    list-style: none;
+  }
+  > li {
+    position: relative;
+  }
+  > li > a {
+    padding: .35em 0;
+    border-top: 1px solid #ddd;
+  }
 }
-.menu a:hover {
-  color: $colour-link_hover;
-  text-decoration: none;
-}
-.menu .active {
-  color: $colour-accent;
-}
-.menu li {
-  list-style: none;
-}
-.menu > li {
-  position: relative;
-}
-.menu > li > a {
-  padding: .35em 0;
-  border-top: 1px solid #ddd;
-}
+
 
 .submenu {
   position: absolute;
-  z-index: 1;
+  // z-index: 1;
+  padding-bottom: 2em;
   display: none;
-  left: 1em;
-}
-.submenu:before {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: -.5em;
+  overflow: hidden;
   left: 0;
-  border-top: .5em solid transparent;
-  border-bottom: .5em solid transparent;
-  border-left: .5em solid #222;
+  bottom: 0em;
+  // opacity: 0;
+  transition: opacity .2s ease-in-out;
+
+
+  li {
+    border-bottom: 1px solid $bk-md;
+  }
+  a {
+    padding: .5em 1.5em;
+    font-size: .9em;
+    color: $colour-main;
+    background: $colour-accent;
+    white-space: nowrap;
+    opacity: 1;
+
+    &:hover {
+      background: #333;
+      color: $wh-lt;
+    }
+  }
+    
 }
-.submenu li {
-  border-bottom: 1px solid #444;
-}
-.submenu a {
-  padding: .5em 1.5em;
-  font-size: .9em;
-  color: #fff;
-  background: #222;
-  white-space: nowrap;
-}
-.submenu a:hover {
-  background: #333;
-  color: #fff;
-}
+  
+  
 
 @media screen and (min-width: 40em) {
   .logo {

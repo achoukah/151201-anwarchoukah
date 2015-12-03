@@ -1,6 +1,9 @@
 .main {
   aside {
     flex: 0 0 100%;
+    border-top: medium solid $colour-accent;
+    padding: 2em 0 0 0;
+    margin: 2em 0 0 0;
 
     a {
       box-shadow: none;
@@ -20,7 +23,7 @@
     #pinboard_linkroll {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-direction: row;
       // align-items: flex-start;
       margin: 0 -0.5em;
@@ -31,7 +34,7 @@
       flex: 0 0 calc(33.33333% - 1em);
       padding: 1em;
       margin: 0.5em;
-      border: thin solid $bk-tr-2;
+      border: thin solid $bk-tr-1;
       line-height: 1.2;
       box-shadow: 0 0 3em -0.5em $bk-tr-1;
 
@@ -65,15 +68,16 @@
       display: inline-block;
       border: thin solid currentColor;
       color: $bk-tr-3;
-      font-size: 0.8em;
+      font-size: 0.7em;
       line-height: 1;
       padding: 0.4em 0.6em;
-      box-shadow: none;
+      box-shadow: inset 0 0 0 currentColor;
       float: left;
-      margin: 0 0.1em 0.2em 0;
+      margin: 0 0.1em 0.1em 0;
 
       &:hover {
-        color: $bk-tr-8;
+        color: $bk-tr-4;
+        box-shadow: inset 0 -2em 0 $bk-tr-1;
       }
     }
   }

@@ -18,7 +18,7 @@
   $bl-lt:               lighten($bl-md, 10%);
   $bl-dk:               lighten($bl-md, 10%);
 
-  $wh-md:               #eee;
+  $wh-md:               #f7f7f7;
   $wh-lt:               lighten($wh-md, 10%);
   $wh-dk:               darken($wh-md, 10%);
 
@@ -52,8 +52,8 @@
   $go:                  #d8473c;
   $pi:                  #cb2027;
 
-  $colour-main:         $wh-lt;
+  $colour-main:         $wh-md;
   $colour-alt:          $bl-md;
-  $colour-accent:       $bl-dk;
+  $colour-accent:       $bk-tr-8;
   $colour-link:         $bl-lt;
   $colour-link_hover:   $bl-dk;
