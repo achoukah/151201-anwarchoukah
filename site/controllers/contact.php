@@ -8,7 +8,7 @@ return function ($site, $pages, $page) {
 				array(
 					'_action' => 'email',
 					'to'      => 'choukah@me.com',
-					'sender'  => 'info@my-domain.tld',
+					'sender'  => 'email@anwarchoukah.com',
 				)
 			)
 		)
