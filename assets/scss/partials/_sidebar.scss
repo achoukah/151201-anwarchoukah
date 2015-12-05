@@ -22,8 +22,12 @@
 
     li {
       flex: 0 0 100%;
+      margin-bottom: 2em;
 
       &:nth-child(n+2) {
+        padding: .5em;
+        box-shadow: 0 0 3em -0.5em $bk-tr-1;
+
         @media screen and (min-width: 40em) {
           flex: 0 0 48%;
         }
@@ -85,6 +89,7 @@
 
       &:hover {
         color: $bk-tr-4;
+        padding: 0.4em 0.6em;
         box-shadow: inset 0 -2em 0 $bk-tr-1;
       }
     }
