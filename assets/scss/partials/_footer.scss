@@ -1,20 +1,20 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 1em 2em 12em;
+  padding: 1em 2em 20em;
   font-size: .8em;
   border-top: medium solid $colour-accent;
   text-align: center;
   
   
   .colophon a b {
-    color: $colour-link;
+    color: $colour-accent;
     padding-left: .25em;
   }
 }
 
 @media screen and (min-width: 40em) {
-  footer {
+  .footer {
     padding: 1em 2em 8em;
 
     .copyright {

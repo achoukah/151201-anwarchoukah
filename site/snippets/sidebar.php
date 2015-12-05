@@ -10,13 +10,16 @@
     <li class"sidebar-item instagram">
       <h2>Latest photos on Instagram</h2>
       <!-- SnapWidget -->
+
       <script src="http://snapwidget.com/js/snapwidget.js"></script>
-      <iframe src="http://snapwidget.com/in/?u=Z2FyYmFkfGlufDY0fDR8M3x8bm98MTZ8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=031215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+      <iframe src="http://snapwidget.com/in/?u=Z2FyYmFkfGlufDY0fDN8M3x8bm98NXxub25lfG9uU3RhcnR8bm98eWVz&ve=051215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+
       <a href="http://instagram.com/garbad" title="Anwar Choukah on Instagram" target="_blank">More on Instagram</a>
     </li>
-    <li class"sidebar-item">
+    <li class"sidebar-item twitter">
       <a class="twitter-timeline"
-        width="300"
+        width="520"
         height="500"
         link-color="#c00"
         data-chrome="noheader nofooter noborders transparent"

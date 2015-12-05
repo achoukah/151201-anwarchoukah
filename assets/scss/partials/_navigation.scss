@@ -4,9 +4,8 @@
 .menu {
   a {
   display: block;
-  // color: $colour-link;
   transition: all .2s ease-in-out;
-  box-shadow: inset 0 0 0 $colour-accent;
+  box-shadow: inset 0 -0.05em 0 $colour-accent;
   }
   a:hover {
     color: $colour-link_hover;
@@ -24,7 +23,7 @@
   }
   > li > a {
     padding: .35em 0;
-    border-top: 1px solid $wh-dk;
+    box-shadow: inset 0 0 -0.1em $colour-accent;
   }
 }
 
@@ -40,7 +39,7 @@
   transition: opacity .2s ease-in-out;
 
   li {
-    border-bottom: 1px solid $bk-md;
+    // border-bottom: 1px solid $bk-md;
   }
   a {
     padding: .5em 1.5em;
@@ -66,7 +65,10 @@
   }
   .menu {
     float: right;
-    // margin-right: 1em;
+    
+    a {
+      box-shadow: inset 0 0 0 $colour-accent;
+    }
   }
   .menu > li {
     float: left;

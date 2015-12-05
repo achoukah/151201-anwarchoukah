@@ -1,10 +1,10 @@
 // FONTS 
   
-  $font-grump:          'Rubik', sans-serif;
+  $font-rubik:          'Rubik', sans-serif;
   $font-roboto_mono:    'Roboto Mono', monospace;
 
-  $font-head:           $font-grump;
-  $font-body:           $font-grump;
+  $font-head:           $font-rubik;
+  $font-body:           $font-rubik;
   $font-code:           $font-roboto_mono;
 
 
@@ -15,7 +15,7 @@
   $rd-dk:               darken($rd-md, 10%);
 
   $yl-md:               #ffb600;
-  $yl-lt:               lighten($yl-md, 10%);
+  $yl-lt:               lighten($yl-md, 40%);
   $yl-dk:               darken($yl-md, 10%);
 
   $bl-md:               #3a5d76;

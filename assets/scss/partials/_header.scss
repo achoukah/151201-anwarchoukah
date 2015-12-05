@@ -14,20 +14,21 @@
 }
 .logo {
   display: block;
-  border-bottom: medium solid $colour-accent;
 
   img {
     width: 2em;
   }
 
   .site-title {
-    padding: 0.35em 0 1em;
+    padding: 0.35em 0;
     transition: all .2s ease-in-out;
-    box-shadow: inset 0 0 0 $bl-lt;
+    box-shadow: inset 0 -0.2em 0 $colour-accent;
   }
   &:hover {
     .site-title {
-      box-shadow: inset 0 -0.2em 0 $bl-lt;
+      color: $wh-lt;
+      padding: 0.35em 0.8em;
+      box-shadow: inset 0 -2.2em 0 $colour-accent;
     }
   }
 }
