@@ -13,7 +13,7 @@
 
 <?php snippet('projects')?>
 -->
-
-  </main>
+<?php snippet('sidebar')?>
+</main>
 
 <?php snippet('footer')?>

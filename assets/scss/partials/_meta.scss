@@ -7,9 +7,13 @@
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: $colour-alt;
+  color: $colour-secondary;
 }
 .meta li b {
   color: #000;
   padding-right: .25em;
+}
+
+@media screen and (min-width: 40em) {
+  
 }

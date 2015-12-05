@@ -16,12 +16,12 @@ h3 {
 h4 {
   font-size: 1.125em;
   line-height: 1.5em;
-  color: $colour-accent;
 }
 h1, h2, h3, h4 {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: .5em;
+  color: $colour-accent;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;

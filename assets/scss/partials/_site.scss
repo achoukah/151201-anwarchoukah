@@ -10,14 +10,14 @@ body {
   margin: 0 auto;
   font-size: 1.8em;
   line-height: 1.5em;
-  background: $colour-main;
-  color: $colour-alt;
+  background: $wh-md;
+  color: $colour-secondary;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   border-top: thick solid $colour-accent;
+}
 
-  @media screen and (min-width: 40em) {
-    
-  }
+@media screen and (min-width: 40em) {
+  
 }

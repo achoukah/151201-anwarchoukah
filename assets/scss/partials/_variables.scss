@@ -14,6 +14,10 @@
   $rd-lt:               lighten($rd-md, 10%);
   $rd-dk:               darken($rd-md, 10%);
 
+  $yl-md:               #ffb600;
+  $yl-lt:               lighten($yl-md, 10%);
+  $yl-dk:               darken($yl-md, 10%);
+
   $bl-md:               #3a5d76;
   $bl-lt:               lighten($bl-md, 10%);
   $bl-dk:               lighten($bl-md, 10%);
@@ -52,8 +56,8 @@
   $go:                  #d8473c;
   $pi:                  #cb2027;
 
-  $colour-main:         $wh-md;
-  $colour-alt:          $bl-md;
-  $colour-accent:       $bk-tr-8;
+  $colour-main:         $bl-dk;
+  $colour-secondary:    $bl-md;
+  $colour-accent:       $yl-md;
   $colour-link:         $bl-lt;
   $colour-link_hover:   $bl-dk;

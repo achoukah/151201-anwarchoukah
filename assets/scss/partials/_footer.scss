@@ -1,17 +1,27 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 1em 2em 8em;
+  padding: 1em 2em 12em;
   font-size: .8em;
   border-top: medium solid $colour-accent;
+  text-align: center;
+  
+  
+  .colophon a b {
+    color: $colour-link;
+    padding-left: .25em;
+  }
 }
-.copyright {
-  float: left;
-}
-.colophon {
-  float: right;
-}
-.colophon a b {
-  color: $colour-link;
-  padding-left: .25em;
+
+@media screen and (min-width: 40em) {
+  footer {
+    padding: 1em 2em 8em;
+
+    .copyright {
+      float: left;
+    }
+    .colophon {
+      float: right;
+    }
+  }
 }
