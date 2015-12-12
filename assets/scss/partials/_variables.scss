@@ -20,11 +20,11 @@
 
   $bl-md:               #3a5d76;
   $bl-lt:               lighten($bl-md, 10%);
-  $bl-dk:               lighten($bl-md, 10%);
+  $bl-dk:               darken($bl-md, 10%);
 
   $gr-md:               #3A4200;
   $gr-lt:               lighten($gr-md, 10%);
-  $gr-dk:               lighten($gr-md, 10%);
+  $gr-dk:               darken($gr-md, 10%);
 
 
   $wh-md:               #f7f7f7;
@@ -66,3 +66,7 @@
   $colour-accent:       $yl-md;
   $colour-link:         $bl-lt;
   $colour-link_hover:   $bl-dk;
+
+// MEDIAQUERIES
+
+  $mq-lg:               xxx;

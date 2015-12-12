@@ -4,6 +4,16 @@ html {
   font-weight: 300;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 4px;
+    background-color: $colour-accent;
+    position: fixed;
+    top: 0;
+  }
 }
 
 body {
@@ -15,9 +25,10 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  border-top: thick solid $colour-accent;
+
+
 }
 
 @media screen and (min-width: 40em) {
-  
+
 }

@@ -2,14 +2,17 @@
 -------------------------------------------------- */
 
 .header {
-  padding: 0.35em 0;
   background: $wh-tr-9;
   width: 100vw;
-  padding: 2em;
+  padding: 0.5em 1em;
   position: fixed;
   bottom: 0;
   box-shadow: 0 0 4em -3em $colour-secondary;
   border: thin solid $bk-tr-1;
+
+  @media screen and (min-width: 40em) {
+    padding: 1em 2em;
+  }
 }
 .logo {
   display: block;

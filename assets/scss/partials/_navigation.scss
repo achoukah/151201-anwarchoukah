@@ -8,9 +8,14 @@ nav[role=navigation] {
 
 
   a {
-  display: block;
-  transition: all .2s ease-in-out;
-  box-shadow: inset 0 -0.05em 0 $colour-accent;
+    display: block;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0 -0.05em 0 $colour-accent;
+    color: $colour-secondary;
+
+    @media screen and (min-width: 40em) {
+      // box-shadow: inset 0 0 0 $colour-accent;
+    }
   }
   a:hover {
     color: $colour-link_hover;
@@ -18,17 +23,29 @@ nav[role=navigation] {
     box-shadow: inset 0 -0.2em 0 $colour-accent;
   }
   .active {
-    color: $colour-accent;
+    box-shadow: inset 0 -0.2em 0 $colour-main;
+    color: $colour-main;
   }
   li {
     list-style: none;
   }
   > li {
     position: relative;
+    float: left;
   }
   > li > a {
-    padding: .35em 0;
-    box-shadow: inset 0 0 -0.1em $colour-accent;
+    margin: 0.5em 1em 0.2em 0;
+    padding: 0.2em 0.2em 0em 0.2em;
+    border: 0;
+    color: $colour-secondary;
+
+    @media screen and (min-width: 40em) {
+      margin: 0.35em 0 0.1em 2em;
+      padding: 0.2em 0.2em .5em;
+    }
+  }
+  @media screen and (min-width: 40em) {
+    float: right;
   }
 }
 
@@ -65,20 +82,8 @@ nav[role=navigation] {
 
 
 @media screen and (min-width: 50em) {
-
-  .menu {
-    float: right;
-
-    a {
-      box-shadow: inset 0 0 0 $colour-accent;
-    }
-  }
-  .menu > li {
-    float: left;
-  }
   .menu > li > a {
-    padding: .35em 1em;
-    border: 0;
+
   }
   .menu > li:hover .submenu {
     display: block;
