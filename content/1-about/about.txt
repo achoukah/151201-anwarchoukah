@@ -2,7 +2,7 @@ Title: About
 
 ----
 
-Text: 
+Text:
 
 I am a designer, currently working for (link: http://thesun.co.uk text: The Sun title: The Sun website, where Anwar Choukah works as a Deputy Creative Director) as Deputy Creative Director, where I've been for well over ten years.
 
@@ -12,8 +12,8 @@ I am the proud father of two lovely daughters and proud partner of my girlfriend
 
 Here's a code block that I *really* like. It uses flex-box to make sure the footer stays at the foot of your browser window:
 
-```
-/* HTML */
+
+(code lang: html caption: HTML)
 
 <body>
   <header>…</header>
@@ -21,8 +21,9 @@ Here's a code block that I *really* like. It uses flex-box to make sure the foot
   <footer>…</footer>
 </body>
 
+(/code)
 
-/* CSS */
+(code lang: html caption: CSS)
 
 .body {
   display: flex;
@@ -33,10 +34,11 @@ Here's a code block that I *really* like. It uses flex-box to make sure the foot
 .Site-content {
   flex: 1;
 }
-```
+(/code)
+
 Code by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton).
 
-My favourite CSS declaration is ``` box-sizing: border-box; ``` and it should be yours too.
+My favourite CSS declaration is (code)box-sizing: border-box;(/code) and it should be yours too.
 
 You might find me weird, but ```flex-box``` is a lot of fun.
 
