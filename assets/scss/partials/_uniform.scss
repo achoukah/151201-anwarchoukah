@@ -18,6 +18,10 @@ input, textarea {
   max-width: 100%;
   padding: 0.5em;
   font-size: 1em;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: thin solid $bk-tr-2;
+
 }
 input {
 

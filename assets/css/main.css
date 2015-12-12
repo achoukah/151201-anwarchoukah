@@ -279,6 +279,9 @@ input, textarea {
   max-width: 100%;
   padding: 0.5em;
   font-size: 1em;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: thin solid rgba(26, 26, 26, 0.2);
 }
 
 textarea {
@@ -537,11 +540,17 @@ figure figcaption {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   margin-bottom: 2em;
-}
-
-.main aside li:nth-child(n+2) {
-  padding: .5em;
+  padding: 1em;
   box-shadow: 0 0 3em -0.5em rgba(26, 26, 26, 0.1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 40em) {
@@ -551,6 +560,12 @@ figure figcaption {
         -ms-flex: 0 0 48%;
             flex: 0 0 48%;
   }
+}
+
+.main aside li .more {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
 }
 
 .main aside #pinboard_linkroll {
@@ -583,10 +598,9 @@ figure figcaption {
   margin: 0.5em;
   border: thin solid rgba(26, 26, 26, 0.1);
   line-height: 1.2;
-  box-shadow: 0 0 3em -0.5em rgba(26, 26, 26, 0.1);
 }
 
-@media screen and (min-width: 30rem) and (max-width: 50em) {
+@media screen and (min-width: 40rem) and (max-width: 60em) {
   .main aside .pin-item {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 calc(50% - 1em);
@@ -595,7 +609,7 @@ figure figcaption {
   }
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 60em) {
   .main aside .pin-item {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 calc(33.33333% - 1em);
@@ -681,3 +695,4 @@ figure figcaption {
     float: right;
   }
 }
+/*# sourceMappingURL=main.css.map */
