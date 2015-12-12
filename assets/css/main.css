@@ -401,6 +401,11 @@ nav[role=navigation] {
 .menu .active {
   box-shadow: inset 0 -0.2em 0 #294254;
   color: #294254;
+  font-weight: 400;
+}
+
+.menu .active:hover {
+  box-shadow: inset 0 -0.2em 0 #294254;
 }
 
 .menu li {

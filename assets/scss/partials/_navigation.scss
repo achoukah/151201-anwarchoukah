@@ -25,6 +25,11 @@ nav[role=navigation] {
   .active {
     box-shadow: inset 0 -0.2em 0 $colour-main;
     color: $colour-main;
+    font-weight: 400;
+
+    &:hover {
+      box-shadow: inset 0 -0.2em 0 $colour-main;
+    }
   }
   li {
     list-style: none;
