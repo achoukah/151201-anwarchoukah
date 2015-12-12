@@ -40,7 +40,7 @@ Code by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-foot
 
 My favourite CSS declaration is (code)box-sizing: border-box;(/code) and it should be yours too.
 
-You might find me weird, but ```flex-box``` is a lot of fun.
+You might find me weird, but (code)flex-box(/code) is a lot of fun.
 
 I really want ``` float: bottom;``` to become a reality. Bend your head around that..
 

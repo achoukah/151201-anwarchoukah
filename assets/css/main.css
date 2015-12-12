@@ -226,26 +226,48 @@ em {
   font-style: italic;
 }
 
-code {
+p + .highlight {
+  margin: 0;
+  margin: -1.5em 0 0 0;
+  padding: .3em .5em;
+  display: inline-block;
+}
+
+pre {
   font-family: "Roboto Mono", monospace;
-  font-size: 0.9em;
-  padding: 0.4rem;
+  font-size: 0.8em;
+  padding: 0.8em;
   border: thin dashed rgba(26, 26, 26, 0.2);
   border-radius: .5rem;
   color: #333;
   background: white;
+  line-height: 1.5;
+}
+
+.code-figure figcaption {
+  padding: 0;
+}
+
+.code-figure figcaption p {
+  padding: 0 .8em;
+  margin: 0 1em;
+  font-size: .8em;
+  font-weight: 300;
+  color: #ffb600;
+  background: rgba(26, 26, 26, 0.5);
   display: inline-block;
-  line-height: 1.3;
+  position: relative;
+  top: .5em;
 }
 
-pre {
+.code-figure pre {
   margin: 0 0 2rem 0;
+  width: 100%;
+  white-space: pre-wrap;
 }
 
-pre code {
-  padding: 1rem;
+.code-figure pre code {
   white-space: pre-wrap;
-  width: 100%;
 }
 
 /* Project meta
