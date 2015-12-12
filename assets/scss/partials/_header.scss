@@ -4,12 +4,11 @@
 .header {
   padding: 0.35em 0;
   background: $wh-tr-9;
-  width: calc(100vw - 2em);
-  margin: 1em;
-  padding: 0.5em;
+  width: 100vw;
+  padding: 2em;
   position: fixed;
   bottom: 0;
-  box-shadow: 0 0 3em -0.5em lighten($colour-accent, 20%);
+  box-shadow: 0 0 4em -3em $colour-secondary;
   border: thin solid $bk-tr-1;
 }
 .logo {
@@ -34,9 +33,14 @@
 }
 @media screen and (min-width: 40em) {
   header {
-    
+
+  }
+  .logo {
+    float: left;
   }
   .site-title {
     padding: 0.35em 0.5em;
   }
 }
+
+

@@ -1,5 +1,5 @@
-// FONTS 
-  
+// FONTS
+
   $font-rubik:          'Rubik', sans-serif;
   $font-roboto_mono:    'Roboto Mono', monospace;
 
@@ -9,18 +9,23 @@
 
 
 // COLOURS
-  
+
   $rd-md:               #c00;
   $rd-lt:               lighten($rd-md, 10%);
   $rd-dk:               darken($rd-md, 10%);
 
   $yl-md:               #ffb600;
   $yl-lt:               lighten($yl-md, 40%);
-  $yl-dk:               darken($yl-md, 10%);
+  $yl-dk:               darken($yl-md, 20%);
 
   $bl-md:               #3a5d76;
   $bl-lt:               lighten($bl-md, 10%);
   $bl-dk:               lighten($bl-md, 10%);
+
+  $gr-md:               #3A4200;
+  $gr-lt:               lighten($gr-md, 10%);
+  $gr-dk:               lighten($gr-md, 10%);
+
 
   $wh-md:               #f7f7f7;
   $wh-lt:               lighten($wh-md, 10%);

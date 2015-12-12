@@ -326,12 +326,11 @@ button:hover {
 .header {
   padding: 0.35em 0;
   background: rgba(255, 255, 255, 0.9);
-  width: calc(100vw - 2em);
-  margin: 1em;
-  padding: 0.5em;
+  width: 100vw;
+  padding: 2em;
   position: fixed;
   bottom: 0;
-  box-shadow: 0 0 3em -0.5em #ffd366;
+  box-shadow: 0 0 4em -3em #3a5d76;
   border: thin solid rgba(26, 26, 26, 0.1);
 }
 
@@ -357,6 +356,9 @@ button:hover {
 }
 
 @media screen and (min-width: 40em) {
+  .logo {
+    float: left;
+  }
   .site-title {
     padding: 0.35em 0.5em;
   }
@@ -364,6 +366,10 @@ button:hover {
 
 /* Navigation
 -------------------------------------------------- */
+nav[role=navigation] {
+  display: block;
+}
+
 .menu a {
   display: block;
   -webkit-transition: all .2s ease-in-out;
@@ -420,10 +426,7 @@ button:hover {
   color: white;
 }
 
-@media screen and (min-width: 40em) {
-  .logo {
-    float: left;
-  }
+@media screen and (min-width: 50em) {
   .menu {
     float: right;
   }
@@ -502,7 +505,7 @@ figure figcaption {
   -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
-  border-top: medium solid #ffb600;
+  border-top: thick solid #ffb600;
   padding: 2em 0 0 0;
   margin: 2em 0 0 0;
 }
@@ -673,9 +676,9 @@ figure figcaption {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 1em 2em 20em;
+  padding: 2em 2em 22em;
   font-size: .8em;
-  border-top: medium solid #ffb600;
+  border-top: thick solid #ffb600;
   text-align: center;
 }
 
@@ -686,7 +689,7 @@ figure figcaption {
 
 @media screen and (min-width: 40em) {
   .footer {
-    padding: 1em 2em 8em;
+    padding: 2em 2em 10em;
   }
   .footer .copyright {
     float: left;

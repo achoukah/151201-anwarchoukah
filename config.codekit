@@ -267,24 +267,13 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/content\/1-about\/about.jpg": {
+	"\/content\/1-about\/_dsc0879.jpg": {
 		"fileType": 16384,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 232182,
-		"inputAbbreviatedPath": "\/content\/1-about\/about.jpg",
-		"outputAbbreviatedPath": "\/content\/1-about\/about.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/1-about\/me.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 81463,
-		"inputAbbreviatedPath": "\/content\/1-about\/me.jpg",
-		"outputAbbreviatedPath": "\/content\/1-about\/me.jpg",
+		"initialSize": 2.25426e+06,
+		"inputAbbreviatedPath": "\/content\/1-about\/_dsc0879.jpg",
+		"outputAbbreviatedPath": "\/content\/1-about\/_dsc0879.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5846,6 +5835,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21054,
+		"inputAbbreviatedPath": "\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
