@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 .main {
   flex: 1;
-  display: flex;
+  // display: flex;
   flex-direction: column;
   max-width: 46em;
   width: 100%;
@@ -30,7 +30,7 @@
 
 
 /* Text blocks */
-.text{ 
+.text{
   ul, ol {
   margin-left: 1em;
   list-style-type: disc;
