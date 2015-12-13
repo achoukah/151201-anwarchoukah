@@ -4,44 +4,41 @@ Title: About
 
 Text:
 
-I am a designer, currently working for (link: http://thesun.co.uk text: The Sun title: The Sun website, where Anwar Choukah works as a Deputy Creative Director) as Deputy Creative Director, where I've been for well over ten years.
+Web designer since 1999. Keeps up to date with current developments, especially HTML and CSS (flex-box, SVG, web-animation, Gulp).
 
-(image: me.jpg caption: That's me doing something I love)
+* Experienced web designer
+* Good at HTML and CSS
+* Typography nerd
 
-I am the proud father of two lovely daughters and proud partner of my girlfriend.
-
-Here's a code block that I *really* like. It uses flex-box to make sure the footer stays at the foot of your browser window:
-
+Current favourite solution to an old problem solved by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton) and ```flex-box```: great snippet for making sure your footer behaves:
 
 (code lang: html caption: HTML)
 
-<body>
-  <header>…</header>
-  <main class="Site-content">…</main>
-  <footer>…</footer>
-</body>
+  <body>
+    <header>…</header>
+    <main class="Site-content">…</main>
+    <footer>…</footer>
+  </body>
 
 (/code)
 
 (code lang: html caption: CSS)
 
-.body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+  .body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-.Site-content {
-  flex: 1;
-}
+  .Site-content {
+    flex: 1;
+  }
+
 (/code)
 
-Code by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton).
+I'm social:
 
-My favourite CSS declaration is (code)box-sizing: border-box;(/code) and it should be yours too.
-
-You might find me weird, but (code)flex-box(/code) is a lot of fun.
-
-I really want ``` float: bottom;``` to become a reality. Bend your head around that..
-
-In the meantime, you can check me out on (twitter: @achoukah text: Twitter), (link: //instagram.com/garbad text: Instagram), (link: //GitHub.com/achoukah text: GitHub) or (link: https://uk.linkedin.com/in/anwarchoukah text: LinkedIn title: Anwar Choukah on LinkedIn).
+* (twitter: @achoukah text: Twitter title: Anwar Chukah on Twitter)
+* (link: //uk.linkedin.com/in/anwarchoukah text: LinkedIn title: Anwar Choukah on LinkedIn)
+* (link: //instagram.com/garbad text: Instagram title: Anwar Choukah on Instagram)
+* (link: //GitHub.com/achoukah text: GitHub title: Anwar Choukah on GitHub)
