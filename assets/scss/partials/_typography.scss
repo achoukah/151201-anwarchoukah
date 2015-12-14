@@ -52,8 +52,18 @@ pre {
   border-radius: .5rem;
   color: $bk-md;
   background: $wh-lt;
-  // display: inline-block;
   line-height: 1.5;
+  white-space: pre-wrap;
+}
+code {
+  white-space: pre-wrap;
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  border: thin dashed $bk-tr-2;
+  border-radius: .5rem;
+  color: $bk-md;
+  background: $wh-lt;
+
 }
 .code-figure {
 
@@ -74,12 +84,12 @@ pre {
   }
 
   pre {
-    margin: 0 0 2rem 0;
     width: 100%;
-    white-space: pre-wrap;
 
     code {
-      white-space: pre-wrap;
+      border: 0 ;
+      padding: 0 ;
+      margin: 0 ;
     }
   }
 }

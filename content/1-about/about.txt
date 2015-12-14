@@ -10,7 +10,7 @@ Web designer since 1999. Keeps up to date with current developments, especially 
 * Good at HTML and CSS
 * Typography nerd
 
-Current favourite solution to an old problem solved by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton) and ```flex-box```: great snippet for making sure your footer behaves:
+Current favourite solution to an old problem solved by (link: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ text: Philip Walton title: Sticky footer using flex-box by Philip Walton) and ``` flex-box ``` a great snippet for making sure your footer behaves:
 
 (code lang: html caption: HTML)
 
@@ -22,7 +22,7 @@ Current favourite solution to an old problem solved by (link: http://philipwalto
 
 (/code)
 
-(code lang: html caption: CSS)
+(code lang: css caption: CSS)
 
   .body {
     display: flex;

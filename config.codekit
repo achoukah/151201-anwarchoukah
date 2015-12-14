@@ -267,17 +267,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/content\/1-about\/_dsc0879.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.25426e+06,
-		"inputAbbreviatedPath": "\/content\/1-about\/_dsc0879.jpg",
-		"outputAbbreviatedPath": "\/content\/1-about\/_dsc0879.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/content\/projects\/1-project-a\/forrest.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5976,17 +5965,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21054,
-		"inputAbbreviatedPath": "\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/me-410a40dfcd053008987f8066e7634859.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		}
 	},
 "hooks": [
