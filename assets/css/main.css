@@ -83,6 +83,7 @@ html::before {
   background-color: #ffb600;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 body {
@@ -764,18 +765,73 @@ figure figcaption {
 
 @media screen and (min-width: 40em) {
   .footer .copyright {
+    margin: 0 0 2em;
     float: left;
   }
 }
 
 @media screen and (min-width: 40em) {
-  .footer .colophon {
+  .footer .kirby {
+    margin: 0 0 2em;
     float: right;
   }
 }
 
-.footer .colophon a b {
+.footer .kirby a b {
   color: #ffb600;
   padding-left: .25em;
+}
+
+.footer .colophon {
+  display: block;
+  float: none;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .colophon table {
+  width: 100%;
+  margin: 0 0 1em;
+}
+
+.footer .colophon table thead {
+  font-weight: 800;
+  text-align: left;
+}
+
+.footer .colophon table tr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .colophon table td,
+.footer .colophon table th {
+  text-align: left;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.footer .colophon table td:nth-child(even),
+.footer .colophon table th:nth-child(even) {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 80%;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+}
+
+.footer .colophon table th {
+  border-top: medium solid rgba(41, 66, 84, 0.2);
+  border-bottom: thin solid rgba(41, 66, 84, 0.3);
+  padding: 0.5em 0.5em 0.2em;
+}
+
+.footer .colophon table td {
+  border-bottom: thin solid rgba(41, 66, 84, 0.1);
+  padding: 0.5em;
 }
 /*# sourceMappingURL=main.css.map */
