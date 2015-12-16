@@ -90,7 +90,7 @@ body {
   margin: 0 auto;
   font-size: 1.8em;
   line-height: 1.5em;
-  background: #f7f7f7;
+  background: #dedede;
   color: #3a5d76;
   display: -webkit-box;
   display: -webkit-flex;
@@ -104,7 +104,7 @@ body {
           flex-direction: column;
 }
 
-/* 
+/*
 
 AnwarChoukah.com - powered by KirbyCMS
 
@@ -113,8 +113,8 @@ URL:    http://anwarchoukah.com
 Email:  anwarchoukah@gmail.com
 
 
-Based on: 
-Kirby Starterkit 
+Based on:
+Kirby Starterkit
 
 Author: Bastian Allgeier / Sascha Lack
 URL:    http://getkirby.com
@@ -155,8 +155,8 @@ Email:  support@getkirby.com
 a {
   color: #4b7898;
   text-decoration: none;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
 }
 
 a:hover {
@@ -230,7 +230,7 @@ em {
 p + .highlight {
   margin: 0;
   margin: -1.5em 0 0 0;
-  padding: .3em .5em;
+  padding: 0.3em 0.5em;
   display: inline-block;
 }
 
@@ -261,7 +261,7 @@ code {
 }
 
 .code-figure figcaption p {
-  padding: 0 .8em;
+  padding: 0 0.8em;
   margin: 0 1em;
   font-size: .8em;
   font-weight: 300;
@@ -334,9 +334,7 @@ textarea {
 }
 
 button {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-size: 1em;
@@ -346,8 +344,8 @@ button {
   background: #3a5d76;
   border: none;
   cursor: pointer;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
   font-weight: 300;
   float: right;
 }
@@ -375,6 +373,7 @@ button:hover {
   box-shadow: 0 0 4em -3em #3a5d76;
   border: thin solid rgba(26, 26, 26, 0.1);
   z-index: 10;
+  backdrop-filter: blur(20px);
 }
 
 @media screen and (min-width: 40em) {
@@ -393,8 +392,8 @@ button:hover {
 
 .logo .site-title {
   padding: 0.35em 0;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
   box-shadow: inset 0 -0.2em 0 #ffb600;
 }
 
@@ -421,8 +420,8 @@ nav[role=navigation] {
 
 .menu a {
   display: block;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
   box-shadow: inset 0 -0.05em 0 #ffb600;
   color: #3a5d76;
 }
@@ -462,7 +461,7 @@ nav[role=navigation] {
 @media screen and (min-width: 40em) {
   .menu > li > a {
     margin: 0.35em 0 0.1em 2em;
-    padding: 0.2em 0.2em .5em;
+    padding: 0.2em 0.2em 0.5em;
   }
 }
 
@@ -480,12 +479,12 @@ nav[role=navigation] {
   overflow: hidden;
   left: 0;
   bottom: 0em;
-  -webkit-transition: opacity .2s ease-in-out;
-  transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+          transition: opacity 0.2s ease-in-out;
 }
 
 .submenu a {
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   font-size: .9em;
   color: #294254;
   background: #ffb600;
@@ -555,7 +554,7 @@ figure img {
 
 figure figcaption {
   font-size: .9em;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   color: rgba(26, 26, 26, 0.5);
 }
 
@@ -614,6 +613,7 @@ figure figcaption {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-width: 40em) {
@@ -714,20 +714,22 @@ figure figcaption {
 
 .main aside .pin-tag {
   display: inline-block;
-  border: thin solid currentColor;
+  border: thin solid rgba(26, 26, 26, 0.2);
   color: rgba(26, 26, 26, 0.3);
   font-size: 0.7em;
   line-height: 1;
   padding: 0.4em 0.6em;
-  box-shadow: inset 0 0 0 currentColor;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.1);
   float: left;
   margin: 0 0.1em 0.1em 0;
+  font-weight: 400;
 }
 
 .main aside .pin-tag:hover {
   color: rgba(26, 26, 26, 0.4);
   padding: 0.4em 0.6em;
-  box-shadow: inset 0 -2em 0 rgba(26, 26, 26, 0.1);
+  box-shadow: inset 0 -2em 0 rgba(255, 255, 255, 0.5);
 }
 
 /* Next/Prev nav

@@ -1,16 +1,7 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "18902",
 "files": {
-	"\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/scss\/partials\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -36,22 +27,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_footer.scss",
 		"outputAbbreviatedPath": "\/assets\/scss\/css\/_footer.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/scss\/partials\/_header.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_header.scss",
-		"outputAbbreviatedPath": "\/assets\/scss\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -100,22 +75,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_meta.scss",
 		"outputAbbreviatedPath": "\/assets\/scss\/css\/_meta.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/scss\/partials\/_navigation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_navigation.scss",
-		"outputAbbreviatedPath": "\/assets\/scss\/css\/_navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -228,22 +187,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_uniform.scss",
 		"outputAbbreviatedPath": "\/assets\/scss\/css\/_uniform.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/scss\/partials\/_variables.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scss\/partials\/_variables.scss",
-		"outputAbbreviatedPath": "\/assets\/scss\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5609,15 +5552,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/site\/accounts\/achoukah.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/accounts\/achoukah.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/site\/accounts\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5978,7 +5912,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Anwar Choukah",
+"lastSavedByUser": "Choukah, Anwar",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -6078,16 +6012,8 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"no_nested_string_interpolation": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"no_plusplus": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"no_private_function_fat_arrows": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -6096,10 +6022,6 @@
 			},
 		"no_tabs": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"no_this": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
@@ -6143,7 +6065,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "\/anwarchoukah\/",
+	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
@@ -6479,6 +6401,10 @@
 			}
 		},
 	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -6487,7 +6413,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"couch": {
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6495,27 +6429,75 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"es6": {
+		"eqeq": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"eval": {
+		"evil": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"for": {
+		"forin": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"this": {
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6616,9 +6598,7 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
-	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
-	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
