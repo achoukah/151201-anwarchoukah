@@ -1,20 +1,4 @@
-/*
 
-AnwarChoukah.com - powered by KirbyCMS
-
-Author: Anwar Choukah
-URL:    http://anwarchoukah.com
-Email:  anwarchoukah@gmail.com
-
-
-Based on:
-Kirby Starterkit
-
-Author: Bastian Allgeier / Sascha Lack
-URL:    http://getkirby.com
-Email:  support@getkirby.com
-
--------------------------------------------------- */
 
 
 /* Clearfix
@@ -24,30 +8,3 @@ Email:  support@getkirby.com
   display: table;
   clear: both;
 }
-
-
-
-/* Project teaser
--------------------------------------------------- */
-.teaser {
-  list-style: none;
-}
-.teaser li {
-  margin-bottom: 1.5em;
-  list-style: none;
-}
-@media screen and (min-width: 50em) {
-  .teaser li {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-  }
-  .teaser li:first-child {
-    margin-left: 0;
-  }
-}
-
-
-
-
-
