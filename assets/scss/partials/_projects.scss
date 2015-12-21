@@ -6,8 +6,11 @@
   justify-content: space-between;
   flex-direction: column;
 
+  @media screen and (min-width: 40em) {
+    flex-direction: row;
+  }
   li {
-    margin-bottom: 1.5em;
+    margin: 0 1em 1.5em;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -20,6 +23,11 @@
     &:first-child {
       @media screen and (min-width: 50em) {
         margin-left: 0;
+      }
+    }
+    &:last-child {
+      @media screen and (min-width: 50em) {
+        margin-right: 0;
       }
     }
     h3 {

@@ -568,8 +568,11 @@ figure figcaption {
   display: flex;
   justify-content: space-between;
   flex-direction: column; }
+  @media screen and (min-width: 40em) {
+    .teaser {
+      flex-direction: row; } }
   .teaser li {
-    margin-bottom: 1.5em;
+    margin: 0 1em 1.5em;
     list-style: none;
     display: flex;
     flex-direction: column; }
@@ -581,6 +584,9 @@ figure figcaption {
     @media screen and (min-width: 50em) {
       .teaser li:first-child {
         margin-left: 0; } }
+    @media screen and (min-width: 50em) {
+      .teaser li:last-child {
+        margin-right: 0; } }
     .teaser li h3 {
       padding: 0 0 1em 0; }
       .teaser li h3 a {
