@@ -268,7 +268,7 @@
 		"useLibsass": 0
 		},
 	"\/assets\/scss\/style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -278,10 +278,10 @@
 		"outputAbbreviatedPath": "\/assets\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/content\/1-projects\/1-project-a\/forrest.jpg": {
 		"fileType": 16384,
@@ -5999,8 +5999,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "anwarchoukah",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "151217-anwarchoukah",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
@@ -6147,7 +6147,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "",
+	"externalServerPreviewPathAddition": "151201-anwarchoukah",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",

@@ -11,7 +11,7 @@
 
   <link href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,300italic,500italic|Roboto+Mono:300' rel='stylesheet' type='text/css'>
 
-<?php echo css('assets/css/main.css?1512122009')?>
+<?php echo css('assets/css/main.css')?>
 
 </head>
 <body>

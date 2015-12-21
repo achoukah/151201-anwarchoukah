@@ -3,15 +3,14 @@
 .teaser {
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   li {
     margin-bottom: 1.5em;
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    // border: thin solid rebeccapurple;
-
 
     @media screen and (min-width: 50em) {
       float: left;
@@ -24,9 +23,12 @@
       }
     }
     h3 {
+      padding: 0 0 1em 0;
       a {
+        padding: 0 0 0.3em 0;
+
         &:hover {
-          padding: 0;
+          padding: 0 0 0.5em 0;
           box-shadow: inset 0 -0.5rem 0 $yl-md;
         }
       }
@@ -34,6 +36,9 @@
   }
   .read-more {
     margin-top: auto;
+    align-self: flex-end;
+    // display: inline-block;
+    text-align: right;
   }
   .project-thumb {
     box-shadow: none;
