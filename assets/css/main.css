@@ -513,7 +513,7 @@ figure figcaption {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 2em 2em 16em;
+  padding: 2em 2em 8em;
   font-size: .8em;
   border-top: thick solid #ffb600;
   text-align: center; }
@@ -549,16 +549,19 @@ figure figcaption {
       .footer .colophon table td,
       .footer .colophon table th {
         text-align: left;
-        flex: 0 0 20%; }
+        flex: 0 0 30%; }
         .footer .colophon table td:nth-child(even),
         .footer .colophon table th:nth-child(even) {
-          flex: 0 0 80%; }
+          flex: 0 0 70%; }
       .footer .colophon table th {
         border-top: medium solid rgba(41, 66, 84, 0.2);
         border-bottom: thin solid rgba(41, 66, 84, 0.3);
         padding: 0.5em 0.5em 0.2em; }
+      .footer .colophon table tr {
+        border-bottom: thin solid rgba(41, 66, 84, 0.1); }
+        .footer .colophon table tr:last-child {
+          border-bottom: none; }
       .footer .colophon table td {
-        border-bottom: thin solid rgba(41, 66, 84, 0.1);
         padding: 0.5em; }
 
 /* Project teaser

@@ -1,7 +1,7 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 2em 2em 16em;
+  padding: 2em 2em 8em;
   font-size: .8em;
   border-top: thick solid $colour-accent;
   text-align: center;
@@ -49,14 +49,14 @@
       td,
       th {
         text-align: left;
-        flex: 0 0 20%;
+        flex: 0 0 30%;
 
 
         &:nth-child(odd) {
 
         }
         &:nth-child(even) {
-          flex: 0 0 80%;
+          flex: 0 0 70%;
         }
       }
       th {
@@ -64,11 +64,16 @@
         border-bottom: thin solid rgba($colour-main, 0.3);
         padding: 0.5em 0.5em 0.2em;
       }
-      td {
+      tr {
         border-bottom: thin solid rgba($colour-main, 0.1);
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      td {
         padding: 0.5em;
       }
     }
-
   }
 }

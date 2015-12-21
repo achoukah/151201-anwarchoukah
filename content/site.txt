@@ -20,16 +20,9 @@ Copyright: © (date: Year) (link: http://anwarchoukah.com text: Anwar Choukah)
 
 Colophon:
 
-| About me                  |  |
-| ---                       | --- |
-| Name          | Anwar Choukah |
-| Email          | choukah@me.com |
-
-----
-
-
-
-
-* Hello you
-* Name
-* Social presence
+| About me        |                                                                     |
+| ---             | ---                                                                 |
+| Name:           | Anwar Choukah                                                       |
+| Contact me:     | (link: http://anwarchoukah.com/contact text:Send me a message)      |
+| Twitter:        | (twitter: @achoukah text: @achoukah)                                |
+| LinkedIn:       | (link: https://uk.linkedin.com/in/anwarchoukah text: )              |
