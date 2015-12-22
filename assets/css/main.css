@@ -586,7 +586,7 @@ figure figcaption {
     .teaser li > a {
       margin-top: auto; }
     .teaser li h3 {
-      padding: 0 0 1em 0; }
+      margin-bottom: 1em; }
       .teaser li h3 a {
         display: block;
         padding: 0 0 0.3em 0; }
