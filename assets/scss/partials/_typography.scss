@@ -45,12 +45,11 @@ p + .highlight {
   display: inline-block;
 }
 pre {
-
   padding: 0.8em;
   border: thin dashed $bk-tr-2;
   border-radius: .5rem;
   color: $bk-md;
-  background: $wh-lt;
+  background: $wh-tr-4;
   line-height: 1.5;
   white-space: pre-wrap;
 }
@@ -64,7 +63,7 @@ code {
   border: thin dashed $bk-tr-2;
   border-radius: .5rem;
   color: $bk-md;
-  background: $wh-lt;
+  background: $wh-tr-4;
 }
 .code-figure {
 
@@ -92,6 +91,7 @@ code {
       border: 0;
       padding: 0;
       margin: 0;
+      background: transparent;
     }
   }
 }
