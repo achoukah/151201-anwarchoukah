@@ -354,11 +354,10 @@ nav[role=navigation] {
 .submenu {
   position: absolute;
   z-index: 1;
-  padding-bottom: 2em;
   display: none;
   overflow: hidden;
   left: 0;
-  bottom: 0em;
+  bottom: 2em;
   transition: opacity .2s ease-in-out; }
   .submenu a {
     padding: .5em 1.5em;
