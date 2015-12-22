@@ -45,8 +45,7 @@ p + .highlight {
   display: inline-block;
 }
 pre {
-  font-family: $font-code;
-  font-size: 0.8em;
+
   padding: 0.8em;
   border: thin dashed $bk-tr-2;
   border-radius: .5rem;
@@ -56,6 +55,9 @@ pre {
   white-space: pre-wrap;
 }
 code {
+  font-family: $font-code;
+  font-size: 0.8em;
+  line-height: 1.6;
   white-space: pre-wrap;
   display: inline-block;
   padding: 0.2em 0.4em;
@@ -87,9 +89,9 @@ code {
     width: 100%;
 
     code {
-      border: 0 ;
-      padding: 0 ;
-      margin: 0 ;
+      border: 0;
+      padding: 0;
+      margin: 0;
     }
   }
 }

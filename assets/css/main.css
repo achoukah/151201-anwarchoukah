@@ -172,8 +172,6 @@ p + .highlight {
   display: inline-block; }
 
 pre {
-  font-family: "Roboto Mono", monospace;
-  font-size: 0.8em;
   padding: 0.8em;
   border: thin dashed rgba(26, 26, 26, 0.2);
   border-radius: .5rem;
@@ -183,6 +181,9 @@ pre {
   white-space: pre-wrap; }
 
 code {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
+  line-height: 1.6;
   white-space: pre-wrap;
   display: inline-block;
   padding: 0.2em 0.4em;

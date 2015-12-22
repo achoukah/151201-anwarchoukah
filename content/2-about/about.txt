@@ -14,25 +14,25 @@ Current favourite solution to an old problem solved by (link: http://philipwalto
 
 (code lang: html caption: HTML)
 
-  <body>
-    <header>…</header>
-    <main class="Site-content">…</main>
-    <footer>…</footer>
-  </body>
+<body>
+  <header>…</header>
+  <main class="Site-content">…</main>
+  <footer>…</footer>
+</body>
 
 (/code)
 
 (code lang: css caption: CSS)
 
-  .body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  .Site-content {
-    flex: 1;
-  }
+.Site-content {
+  flex: 1;
+}
 
 (/code)
 
