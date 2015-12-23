@@ -2,21 +2,7 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
-*.htaccess
 *.css
-*.css
-
-assets/css/main.css
-
-*.css
-<<<<<<< HEAD
-
 *.psd
-
-*.scssc
-
-*.scssc
-=======
->>>>>>> parent of d99024c... New Favicon
-
+*.scss
 *.codekit
