@@ -341,6 +341,7 @@
 		"processed": 0
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"\/content\/1-projects\/4-test\/dooku.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -352,6 +353,8 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+=======
+>>>>>>> parent of d99024c... New Favicon
 =======
 >>>>>>> parent of d99024c... New Favicon
 	"\/index.php": {

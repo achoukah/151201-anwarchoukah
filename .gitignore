@@ -2,7 +2,7 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
-*.css
 *.psd
 *.scss
 *.codekit
+*.css
