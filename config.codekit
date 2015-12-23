@@ -481,35 +481,13 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/content\/1-projects\/1-project-a\/forrest.jpg": {
-		"fileType": 16384,
+	"\/content\/1-projects\/1-project-a\/mockup-temp.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 280900,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/forrest.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/forrest.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/1-projects\/1-project-a\/green.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 306670,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/green.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/green.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/1-projects\/1-project-a\/the-sea.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 263038,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/the-sea.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/the-sea.jpg",
+		"initialSize": 252684,
+		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/mockup-temp.png",
+		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/mockup-temp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -554,6 +532,17 @@
 		"initialSize": 268191,
 		"inputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/kermit-the-fog.jpg",
 		"outputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/kermit-the-fog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content\/1-projects\/4-test\/dooku.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 627535,
+		"inputAbbreviatedPath": "\/content\/1-projects\/4-test\/dooku.jpg",
+		"outputAbbreviatedPath": "\/content\/1-projects\/4-test\/dooku.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5911,6 +5900,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/sftp-config.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sftp-config.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/sftp-config-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/site\/accounts\/achoukah.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6445,7 +6445,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "",
+	"externalServerPreviewPathAddition": "\/anwarchoukah",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",

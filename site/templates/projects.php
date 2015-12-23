@@ -13,4 +13,14 @@
 
   </main>
 
-<?php snippet('footer') ?>
+<?php snippet('footer') ?>tBy('sort', 'asc')->first()): ?>
+    <a href="<?php echo $project->url() ?>" class="project-thumb">
+      <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" >
+    </a>
+    <?php endif ?>
+    <p><?php echo $project->text()->excerpt(80) ?></p>
+    <p><a class="read-more" href="<?php echo $project->url() ?>">Read More</a></p>
+
+  </li>
+  <?php endforeach ?>
+</ul>
