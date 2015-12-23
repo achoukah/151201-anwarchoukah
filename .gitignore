@@ -9,9 +9,14 @@
 assets/css/main.css
 
 *.css
+<<<<<<< HEAD
 
 *.psd
 
 *.scssc
 
 *.scssc
+=======
+>>>>>>> parent of d99024c... New Favicon
+
+*.codekit
