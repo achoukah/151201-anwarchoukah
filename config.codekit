@@ -340,11 +340,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 5d175a1... Revert "New Favicon"
 	"\/content\/1-projects\/4-test\/dooku.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -356,13 +351,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
-=======
->>>>>>> parent of d99024c... New Favicon
-=======
->>>>>>> parent of d99024c... New Favicon
-=======
->>>>>>> parent of 5d175a1... Revert "New Favicon"
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6018,7 +6006,7 @@
 	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -6173,7 +6161,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "",
+	"externalServerPreviewPathAddition": "\/anwarchoukah",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
