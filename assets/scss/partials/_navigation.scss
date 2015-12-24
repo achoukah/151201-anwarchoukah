@@ -1,11 +1,15 @@
 /* Navigation
 -------------------------------------------------- */
 nav[role=navigation] {
-  display: block;
+  margin-left: auto;
 
 }
 .menu {
+  display: flex;
 
+  @media screen and (min-width: 50em) {
+    margin-left: auto;
+  }
 
   a {
     display: block;
@@ -13,8 +17,8 @@ nav[role=navigation] {
     box-shadow: inset 0 -0.05em 0 $colour-accent;
     color: $colour-secondary;
 
-    @media screen and (min-width: 40em) {
-      // box-shadow: inset 0 0 0 $colour-accent;
+    @media screen and (min-width: 50em) {
+
     }
   }
   a:hover {
@@ -35,8 +39,8 @@ nav[role=navigation] {
     list-style: none;
   }
   > li {
-    position: relative;
-    float: left;
+    // position: relative;
+    // float: left;
   }
   > li > a {
     margin: 0.5em 1em 0.2em 0;
@@ -49,9 +53,7 @@ nav[role=navigation] {
       padding: 0.2em 0.2em .5em;
     }
   }
-  @media screen and (min-width: 40em) {
-    float: right;
-  }
+
 }
 
 
