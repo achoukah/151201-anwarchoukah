@@ -342,6 +342,9 @@
 		},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5d175a1... Revert "New Favicon"
 	"\/content\/1-projects\/4-test\/dooku.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -353,10 +356,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
 =======
 >>>>>>> parent of d99024c... New Favicon
 =======
 >>>>>>> parent of d99024c... New Favicon
+=======
+>>>>>>> parent of 5d175a1... Revert "New Favicon"
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
