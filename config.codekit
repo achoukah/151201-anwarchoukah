@@ -371,6 +371,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/content\/1-projects\/4-more\/dooku.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 627535,
+		"inputAbbreviatedPath": "\/content\/1-projects\/4-more\/dooku.jpg",
+		"outputAbbreviatedPath": "\/content\/1-projects\/4-more\/dooku.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,

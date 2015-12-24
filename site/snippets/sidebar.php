@@ -1,12 +1,7 @@
 <aside>
   <h1>Meanwhile, elsewhere</h1>
   <ul>
-    <li class="sidebar-item pinboard">
-      <h4>On Pinboard.in</h4>
-        <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=Garbad&count=6">
-        </script>
-        <a class="more" href="https://pinboard.in/u:garbad/" title="More of Anwar Choukah's bookmarks on Pinboard.in" target="_blank">Public bookmarks on Pinboard.in</a>
-    </li>
+
     <li class="sidebar-item instagram">
       <h4>On Instagram</h4>
       <!-- SnapWidget -->
@@ -33,6 +28,12 @@
 
 
       <a class="more" href="http://twitter.com/achoukah" title="Anwar Choukah on Twitter" target="_blank">@achoukah on Twitter</a>
+    </li>
+    <li class="sidebar-item pinboard">
+      <h4>On Pinboard.in</h4>
+        <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=Garbad&count=6">
+        </script>
+        <a class="more" href="https://pinboard.in/u:garbad/" title="More of Anwar Choukah's bookmarks on Pinboard.in" target="_blank">Public bookmarks on Pinboard.in</a>
     </li>
   </ul>
 </aside>

@@ -5,22 +5,28 @@
   font-size: .8em;
   border-top: thick solid $colour-accent;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
   @media screen and (min-width: 40em) {
     padding: 2em 2em 10em;
+    flex-direction: row;
   }
   .copyright {
     @media screen and (min-width: 40em) {
       margin: 0 0 2em;
-      float: left;
+      flex: 0 0 50%;
+      text-align: left;
     }
   }
   .kirby {
     margin: 0 0 2em;
 
-    @media screen and (min-width: 40em) {
 
-      float: right;
+    @media screen and (min-width: 40em) {
+      flex: 0 0 50%;
+      text-align: right;
     }
   }
   .kirby a b {
