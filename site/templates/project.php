@@ -19,7 +19,7 @@
       <?php endforeach ?>
     </div>
 
-    <nav class="nextprev cf" role="navigation">
+    <nav class="nextprev" role="navigation">
       <?php if($prev = $page->prevVisible()): ?>
       <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
       <?php endif ?>
