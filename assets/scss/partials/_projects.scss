@@ -5,23 +5,20 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  flex-wrap: wrap;
 
   @media screen and (min-width: 50em) {
     flex-direction: row;
   }
   li {
-    margin: 0 0 0.8em;
-    padding: 1em 1em 0em;
-    background-color: $wh-tr-2;
-    box-shadow: 0 0 3em -0.5em $bk-tr-1;
+    margin: 0 0 1.5em;
     list-style: none;
     display: flex;
     flex-direction: column;
-    flex: 0 0 100%;
 
     @media screen and (min-width: 50em) {
-      flex: 0 0 49%;
+      float: left;
+      width: 30%;
+      // margin-left: 5%;
     }
     > a {
       margin-top: auto;
