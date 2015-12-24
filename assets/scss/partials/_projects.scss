@@ -19,9 +19,13 @@
     flex: 0 0 100%;
     box-shadow: 0 0 3em -0.5em $bk-tr-1;
     background-color: $wh-tr-2;
+    transition: all .2s ease-in-out;
 
     @media screen and (min-width: 50em) {
       flex: 0 0 49%;
+    }
+    &:hover {
+      background-color: $wh-tr-4;
     }
     > a {
       margin-top: auto;
