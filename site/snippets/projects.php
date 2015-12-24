@@ -9,7 +9,7 @@
       <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" >
     </a>
     <?php endif ?>
-    <p><?php echo $project->text()->excerpt(80) ?></p>
+    <p><?php echo $project->text()->excerpt(140) ?></p>
     <p><a class="read-more" href="<?php echo $project->url() ?>">Read More</a></p>
 
   </li>

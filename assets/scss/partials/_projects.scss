@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  flex-wrap: wrap;
 
   @media screen and (min-width: 50em) {
     flex-direction: row;
@@ -16,7 +17,7 @@
     flex-direction: column;
 
     @media screen and (min-width: 50em) {
-      float: left;
+      // float: left;
       width: 30%;
       // margin-left: 5%;
     }
@@ -49,6 +50,7 @@
   }
   .project-thumb {
     box-shadow: none;
+    margin-bottom: 0.5em;
 
     &:hover {
       padding: 0;
