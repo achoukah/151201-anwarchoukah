@@ -50,48 +50,9 @@ nav[role=navigation] {
     }
     > a {
       margin: 0.35em 1em 0 0;
-      padding: 0.2em 0.5em 0.5em;
+      padding: 0.2em 0 0.5em;
       border: 0;
       color: $colour-secondary;
     }
-  }
-}
-
-
-.submenu {
-  position: absolute;
-  z-index: 1;
-  // padding-bottom: 2em;
-  display: none;
-  overflow: hidden;
-  left: 0;
-  bottom: 2em;
-  transition: opacity .2s ease-in-out;
-
-  li {
-    // border-bottom: 1px solid $bk-md;
-  }
-  a {
-    padding: .5em 1.5em;
-    font-size: .9em;
-    color: $colour-main;
-    background: $colour-accent;
-    white-space: nowrap;
-    opacity: 1;
-
-    &:hover {
-      background: #333;
-      color: $wh-lt;
-    }
-  }
-
-}
-
-
-
-@media screen and (min-width: 50em) {
-
-  .menu > li:hover .submenu {
-    display: block;
   }
 }
