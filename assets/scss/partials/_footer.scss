@@ -1,7 +1,7 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 2em 2em 9em;
+  padding: 2em 2em 10em;
   font-size: .8em;
   border-top: thick solid $colour-accent;
   text-align: center;
@@ -10,7 +10,7 @@
   flex-direction: column;
 
   @media screen and (min-width: 40em) {
-    padding: 2em 2em 10em;
+
     flex-direction: row;
   }
   .copyright {
@@ -43,19 +43,23 @@
     ul {
       display: flex;
       justify-content: center;
-      li {
+      margin: auto;
 
+      li {
+        margin: .3em;
+        flex: 0 0 auto;
+        width: 2.9em;
+        height: 2.9em;
       }
       .social {
         display: block;
-        // border: medium solid $bk-tr-2;
+        border: thin solid $bk-tr-1;
         background-color: $bk-tr-3;
         color: $wh-lt;
         text-indent: -9999px;
-        width: 3em;
-        height: 3em;
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
-        margin: 0.3em;
         background-image: url($sprite-social);
         background-size: 5.5em;
         background-position-x: 0.6em;
