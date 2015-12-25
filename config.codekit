@@ -294,90 +294,90 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/content\/1-projects\/1-project-a\/forrest.jpg": {
+	"\/content\/2-projects\/1-project-a\/forrest.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 280900,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/forrest.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/forrest.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/forrest.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/forrest.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/1-project-a\/green.jpg": {
+	"\/content\/2-projects\/1-project-a\/green.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 306670,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/green.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/green.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/green.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/green.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/1-project-a\/the-sea.jpg": {
+	"\/content\/2-projects\/1-project-a\/the-sea.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 263038,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/the-sea.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-project-a\/the-sea.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/the-sea.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/1-project-a\/the-sea.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/2-project-b\/mountains.jpg": {
+	"\/content\/2-projects\/2-project-b\/mountains.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 169253,
-		"inputAbbreviatedPath": "\/content\/1-projects\/2-project-b\/mountains.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/2-project-b\/mountains.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/mountains.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/mountains.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/2-project-b\/road.jpg": {
+	"\/content\/2-projects\/2-project-b\/road.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268073,
-		"inputAbbreviatedPath": "\/content\/1-projects\/2-project-b\/road.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/2-project-b\/road.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/road.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/2-project-b\/road.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/3-project-c\/hightide.jpg": {
+	"\/content\/2-projects\/3-project-c\/hightide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 208192,
-		"inputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/hightide.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/hightide.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/hightide.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/hightide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/3-project-c\/kermit-the-fog.jpg": {
+	"\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268191,
-		"inputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/kermit-the-fog.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/3-project-c\/kermit-the-fog.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/3-project-c\/kermit-the-fog.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/4-more\/dooku.jpg": {
+	"\/content\/2-projects\/4-more\/dooku.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 627535,
-		"inputAbbreviatedPath": "\/content\/1-projects\/4-more\/dooku.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/4-more\/dooku.jpg",
+		"inputAbbreviatedPath": "\/content\/2-projects\/4-more\/dooku.jpg",
+		"outputAbbreviatedPath": "\/content\/2-projects\/4-more\/dooku.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

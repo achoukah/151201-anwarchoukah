@@ -1,14 +1,18 @@
 /* Navigation
 -------------------------------------------------- */
 nav[role=navigation] {
-  margin-left: auto;
+
+
+  @media screen and (min-width: 50em) {
+    margin-left: auto;
+  }
 
 }
 .menu {
   display: flex;
 
   @media screen and (min-width: 50em) {
-    margin-left: auto;
+
   }
 
   a {
@@ -39,20 +43,19 @@ nav[role=navigation] {
     list-style: none;
   }
   > li {
-    // position: relative;
-    // float: left;
-  }
-  > li > a {
-    margin: 0.5em 1em 0.2em 0;
-    padding: 0.2em 0.2em 0em 0.2em;
-    border: 0;
-    color: $colour-secondary;
-
-    @media screen and (min-width: 40em) {
-      margin: 0.35em 0 0.1em 2em;
-      padding: 0.2em 0.2em .5em;
+    &:last-child {
+      > a {
+        margin-left: 0;
+      }
+    }
+    > a {
+      margin: 0.35em 1em 0 0;
+      padding: 0.2em 0.5em 0.5em;
+      border: 0;
+      color: $colour-secondary;
     }
   }
+
 
 }
 
