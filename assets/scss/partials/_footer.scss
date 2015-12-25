@@ -48,7 +48,8 @@
       }
       .social {
         display: block;
-        // border: thin solid $bk-tr-2;
+        // border: medium solid $bk-tr-2;
+        background: $bk-tr-3 !important;
         color: $wh-lt;
         text-indent: -9999px;
         width: 3em;
@@ -56,37 +57,36 @@
         border-radius: 50%;
         margin: 0.5em;
 
+        &:hover {
+          background: $bk-tr-4 !important;
+        }
+
         &.li {
           background: $li;
-          color: $li;
           &:hover {
             background: darken($li, 10%);
           }
         }
         &.tw {
           background: $tw;
-          color: $tw;
           &:hover {
             background: darken($tw, 10%);
           }
         }
         &.gh {
           background: $gh;
-          color: $gh;
           &:hover {
             background: darken($gh, 10%);
           }
         }
         &.ig {
           background: $ig;
-          color: $ig;
           &:hover {
             background: darken($ig, 10%);
           }
         }
         &.tu {
           background: $tu;
-          color: $tu;
           &:hover {
             background: darken($tu, 10%);
           }
