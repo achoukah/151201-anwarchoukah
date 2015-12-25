@@ -45,7 +45,7 @@ nav[role=navigation] {
   > li {
     &:last-child {
       > a {
-        margin-left: 0;
+        margin-right: 0;
       }
     }
     > a {
@@ -55,8 +55,6 @@ nav[role=navigation] {
       color: $colour-secondary;
     }
   }
-
-
 }
 
 
@@ -92,9 +90,7 @@ nav[role=navigation] {
 
 
 @media screen and (min-width: 50em) {
-  .menu > li > a {
 
-  }
   .menu > li:hover .submenu {
     display: block;
   }

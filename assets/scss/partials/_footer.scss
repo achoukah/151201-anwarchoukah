@@ -1,7 +1,7 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 2em 2em 8em;
+  padding: 2em 2em 9em;
   font-size: .8em;
   border-top: thick solid $colour-accent;
   text-align: center;
@@ -39,7 +39,60 @@
     clear: both;
     width: 100%;
     text-align: center;
-    // border: thin solid rebeccapurple;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+
+      }
+      .social {
+        display: block;
+        // border: thin solid $bk-tr-2;
+        color: $wh-lt;
+        text-indent: -9999px;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        margin: 0.5em;
+
+        &.li {
+          background: $li;
+          color: $li;
+          &:hover {
+            background: darken($li, 10%);
+          }
+        }
+        &.tw {
+          background: $tw;
+          color: $tw;
+          &:hover {
+            background: darken($tw, 10%);
+          }
+        }
+        &.gh {
+          background: $gh;
+          color: $gh;
+          &:hover {
+            background: darken($gh, 10%);
+          }
+        }
+        &.ig {
+          background: $ig;
+          color: $ig;
+          &:hover {
+            background: darken($ig, 10%);
+          }
+        }
+        &.tu {
+          background: $tu;
+          color: $tu;
+          &:hover {
+            background: darken($tu, 10%);
+          }
+        }
+      }
+    }
 
     table {
       width: 100%;
