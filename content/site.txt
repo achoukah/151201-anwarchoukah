@@ -20,8 +20,10 @@ Copyright: © (date: Year) (link: http://anwarchoukah.com text: Anwar Choukah)
 
 Colophon:
 
-- (link: http://uk.linkedin.com/in/anwarchoukah popup: yes class: social li text: LinkedIn)
 - (link: http://twitter.com/achoukah popup: yes class: social tw text: Twitter)
-- (link: http://http://github.com/achoukah.com/achoukah popup: yes class: social gh text: GitHub)
 - (link: http://instagram.com/garbad popup: yes class: social ig text: Instagram)
 - (link: http://anwarchoukah.tumblr.com/ popup: yes class: social tu text: Tumblr)
+- (link: http://uk.linkedin.com/in/anwarchoukah popup: yes class: social li text: LinkedIn)
+- (link: http://http://github.com/achoukah.com/achoukah popup: yes class: social gh text: GitHub)
+- (link: http://codepen.io/achoukah/ popup: yes class: social cp text: Codepen)
+
