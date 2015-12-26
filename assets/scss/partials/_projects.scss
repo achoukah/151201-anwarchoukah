@@ -1,19 +1,14 @@
 /* Project teaser
 -------------------------------------------------- */
 .teaser {
-  list-style: none;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 
-  @media screen and (min-width: 50em) {
-    flex-direction: row;
-  }
   li {
     margin: 0 0 0.5em;
     padding: 1em 1em 0;
-    list-style: none;
     display: flex;
     flex-direction: column;
     flex: 0 0 100%;
@@ -31,7 +26,6 @@
       margin-top: auto;
     }
     h3 {
-      // padding: 0 0 0em 0;
       margin-bottom: 1em;
 
       a {
@@ -52,7 +46,6 @@
   .read-more {
     margin-top: auto;
     align-self: flex-end;
-    // display: inline-block;
     text-align: right;
   }
   .project-thumb {
