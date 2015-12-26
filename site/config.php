@@ -35,5 +35,3 @@ c::set('thumbs.driver', 'im');
 // Path To ImageMagick
 thumb::$defaults['bin'] = '/usr/local/bin/convert';
 
-// CACHEBUSTER
-c::set('cachebuster', true);
