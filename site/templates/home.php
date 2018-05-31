@@ -11,6 +11,10 @@
 
   <?php snippet('projects')?>
 
+  <hr>
+
+  <?php snippet('contactform') ?>
+
 
 </main>
 
