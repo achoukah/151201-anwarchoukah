@@ -22,7 +22,8 @@ h1, h2, h3, h4 {
   font-weight: 400;
   text-transform: uppercase;
   color: $colour-main;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.712em;
+  margin-top: 1.5em;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
@@ -44,27 +45,8 @@ p + .highlight {
   padding: .3em .5em;
   display: inline-block;
 }
-pre {
-  padding: 0.8em;
-  border: thin dashed $bk-tr-2;
-  border-radius: .5rem;
-  color: $bk-md;
-  background: $wh-tr-4;
-  line-height: 1.5;
-  white-space: pre-wrap;
-}
-code {
-  font-family: $font-code;
-  font-size: 0.8em;
-  line-height: 1.6;
-  white-space: pre-wrap;
-  display: inline-block;
-  padding: 0.2em 0.4em;
-  border: thin dashed $bk-tr-2;
-  border-radius: .5rem;
-  color: $bk-md;
-  background: $wh-tr-4;
-}
+
+
 .code-figure {
 
   figcaption {

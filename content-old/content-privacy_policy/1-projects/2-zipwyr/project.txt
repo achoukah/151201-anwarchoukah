@@ -1,0 +1,21 @@
+Title: Zipwyr
+
+----
+
+Year:
+2016
+
+----
+
+Text:
+
+(image: 00-projects-zipwyr-main.png alt: Zipwyr caption: Zipwyr WordPress web site)
+
+
+Theme design and development for zipwyr.com — a news website tailored for kids and teenagers.
+
+Worked closely together with the client to deliver design and coding for bespoke WordPress theme.
+
+----
+
+Tags: media,the sun,web design,css,html,graphic design

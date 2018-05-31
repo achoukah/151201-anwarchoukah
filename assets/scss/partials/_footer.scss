@@ -1,157 +1,193 @@
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 2em 2em 10em;
-  font-size: .8em;
-  border-top: thick solid $colour-accent;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  font-size : 0.8em;
+
+  display : flex;
   flex-direction: column;
 
-  @media screen and (min-width: 40em) {
+  padding : 2em;
 
-    flex-direction: row;
+  text-align : center;
+
+  border-top : thick solid $colour-accent;
+
+  justify-content : space-around;
+  flex-wrap : wrap;
+
+  @media screen and (min-width: 40em) {
+    flex-direction : row;
+  }
+
+  .copyright,
+  .kirby,
+  .social-footer {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    @media screen and (min-width: 40em) {
+
+    }
+  }
+  .copyright,
+  .kirby {
+    text-align : center;
+    width: 100%;
+
+    @media screen and (min-width: 40em) {
+      width: auto;
+    }
   }
   .copyright {
+    margin-right: auto;
+
+    order : 2;
+
     @media screen and (min-width: 40em) {
-      margin: 0 0 2em;
-      flex: 0 0 50%;
       text-align: left;
+      width: auto;
+      order : 0;
     }
   }
   .kirby {
-    margin: 0 0 2em;
 
+    margin-left: auto;
+    width: 100%;
+    order: 3;
 
     @media screen and (min-width: 40em) {
-      flex: 0 0 50%;
       text-align: right;
+      width: auto;
+      order: 2;
     }
   }
   .kirby a b {
-    color: $colour-accent;
-    padding-left: .25em;
+    padding-left : 0.25em;
+
+    color : $colour-accent;
   }
-  .colophon {
-    display: block;
-    float: none;
-    clear: both;
-    width: 100%;
-    text-align: center;
+  .social-footer {
+    clear : both;
+
+    margin : auto;
+
+    text-align : center;
+    margin-bottom: 2em;
+
+    order : 1;
+
+    @media screen and (min-width: 40em) {
+      order: 0;
+      margin-bottom: 0;
+    }
 
     ul {
-      display: flex;
-      justify-content: center;
-      margin: auto;
+      display : flex;
+
+      margin : auto;
+
+      justify-content : center;
 
       li {
-        margin: .3em;
-        flex: 0 0 auto;
-        width: 2.9em;
-        height: 2.9em;
+        width : 4.8rem;
+        height : 4.8rem;
+        margin : 0.3rem;
+
+        flex : 0 0 auto;
       }
       .social {
-        display: block;
-        border: thin solid $bk-tr-1;
-        background-color: $bk-tr-3;
-        color: $wh-lt;
-        text-indent: -9999px;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        background-image: url($sprite-social);
-        background-size: 5.5em;
-        background-position-x: 0.5em;
-        background-repeat: no-repeat;
+        display : block;
+
+        width : 100%;
+        height : 100%;
+
+        text-indent : -9999px;
+
+        color : $wh-lt;
+        border : thin solid $bk-tr-1;
+        border-radius : 50%;
+        background-color : $bk-tr-3;
+        background-repeat : no-repeat;
+        background-position : 50%;
+        background-size : 80%;
 
         &:hover {
-          background-color: $bk-tr-4;
+          background-color : $bk-tr-4;
         }
 
         &.li {
-          // background-color: $li;
-          background-position-y: -6.1em;
           &:hover {
-            background-color: $li;
+            background-color : $li;
           }
         }
         &.tw {
-          // background-color: $tw;
-          background-position-y: -2.6em;
           &:hover {
-            background-color: $tw;
+            background-color : $tw;
           }
         }
         &.gh {
-          // background-color: $gh;
-          background-position-y: -12.9em;
           &:hover {
-            background-color: $gh;
+            background-color : $gh;
           }
         }
         &.ig {
-          // background-color: $ig;
-          background-position-y: 0.7em;
           &:hover {
-            background-color: $ig;
+            background-color : $ig;
           }
         }
         &.tu {
-          // background-color: $tu;
-          background-position-y: -9.5em;
           &:hover {
-            background-color: $tu;
+            background-color : $tu;
           }
         }
         &.cp {
-          // background-color: $cp;
-          background-position-y: -19.7em;
           &:hover {
-            background-color: $cp;
+            background-color : $cp;
           }
         }
       }
     }
 
     table {
-      width: 100%;
-      margin: 0 0 1em;
+      width : 100%;
+      margin : 0 0 1em;
 
       thead {
-        font-weight: 800;
-        text-align: left;
+        font-weight : 800;
+
+        text-align : left;
       }
       tr {
-        display: flex;
+        display : flex;
       }
       td,
       th {
-        text-align: left;
-        flex: 0 0 30%;
+        text-align : left;
+
+        flex : 0 0 30%;
 
 
         &:nth-child(odd) {
-
         }
         &:nth-child(even) {
-          flex: 0 0 70%;
+          flex : 0 0 70%;
         }
       }
       th {
-        border-top: medium solid rgba($colour-main, 0.2);
-        border-bottom: thin solid rgba($colour-main, 0.3);
-        padding: 0.5em 0.5em 0.2em;
+        padding : 0.5em 0.5em 0.2em;
+
+        border-top : medium solid rgba($colour-main, 0.2);
+        border-bottom : thin solid rgba($colour-main, 0.3);
       }
       tr {
-        border-bottom: thin solid rgba($colour-main, 0.1);
+        border-bottom : thin solid rgba($colour-main, 0.1);
 
         &:last-child {
-          border-bottom: none;
+          border-bottom : none;
         }
       }
       td {
-        padding: 0.5em;
+        padding : 0.5em;
       }
     }
   }

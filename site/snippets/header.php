@@ -5,39 +5,62 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <title><?php echo $site->title()->html()?> | <?php echo $page->title()->html()?></title>
-  <meta name="description" content="<?php echo $site->description()->html()?>">
-  <meta name="keywords" content="<?php echo $site->keywords()->html()?>">
+  <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+  <meta name="description" content="<?php echo $site->description()->html() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <link href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,300italic,500italic|Roboto+Mono:300' rel='stylesheet' type='text/css'>
+  <!-- <style><?php echo file_get_contents('assets/css/main.css') ?></style> -->
 
-<?php echo css('assets/css/main.css')?>
+  <style><?php echo file_get_contents('https://fonts.googleapis.com/css?family=Rubik:300,400,300italic,400italic|Roboto+Mono:300') ?></style>
 
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffb300">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffb300">
+
+
+  <?php echo css('assets/css/main.css') ?>
+
+  <?php echo js('assets/js/main.js') ?>
+
+
+  <!-- Hotjar Tracking Code for anwarchoukah.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:61691,hjsv:5};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <script>
+  window['_fs_debug'] = false;
+  window['_fs_host'] = 'fullstory.com';
+  window['_fs_org'] = '62QQV';
+  window['_fs_namespace'] = 'FS';
+  (function(m,n,e,t,l,o,g,y){
+      if (e in m && m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); return;}
+      g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+      o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+      y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+      g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+      g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+      g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+      d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+      ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+  })(window,document,window['_fs_namespace'],'script','user');
+  </script>
 
 </head>
 <body>
 
+  <?php include_once("analyticstracking.php") ?>
+
   <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url()?>">
-      <!-- <img src="<?php echo url('assets/images/logo.svg')?>" alt="<?php echo $site->title()->html()?>" /> -->
+    <a class="logo" href="<?php echo url() ?>" title="<?php echo $site->title()->html() ?> Home">
+      <!-- REMOVE KIRBY LOGO
+      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+      -->
       <div class="site-title"><?php echo $site->title()->html()?></div>
     </a>
-<?php snippet('menu')?>
+    <?php snippet('menu') ?>
   </header>

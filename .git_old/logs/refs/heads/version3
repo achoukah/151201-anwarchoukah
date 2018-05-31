@@ -1,0 +1,22 @@
+0000000000000000000000000000000000000000 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1514486314 +0000	branch: Created from master
+54ea7e2e288983bcf12de67e71d4860c71baa45d 138745dd96a63942a2757c0455159814d9888b80 Anwar Choukah <anwarchoukah@gmail.com> 1514488427 +0000	commit: PROJECT TEASERS: Change background colour on hover state of teaser h3 and gitignore .txt files
+138745dd96a63942a2757c0455159814d9888b80 b297cd2b254e47e4bb2d164e71a1f75f69d10bbf Anwar Choukah <anwarchoukah@gmail.com> 1514497357 +0000	commit: HEADER: Move to top and clean up .main. FOOTER: Add Social buttons with social-sprite
+b297cd2b254e47e4bb2d164e71a1f75f69d10bbf 45d54fdf2a4a148fe9482fc21770739ff25a2ebf Anwar Choukah <anwarchoukah@gmail.com> 1514497467 +0000	commit: gitignore .txt
+45d54fdf2a4a148fe9482fc21770739ff25a2ebf 4b02f6d87959acb122db3ff19a71bf63fe58af57 Anwar Choukah <anwarchoukah@gmail.com> 1514554565 +0000	commit: GITIGNORE: .codekit3 – hopefully this time
+4b02f6d87959acb122db3ff19a71bf63fe58af57 afdbb0b9670fa8dfe02f828ee20f540b135ec8d6 Anwar Choukah <anwarchoukah@gmail.com> 1514555272 +0000	commit: PROJECTS: Reorder html for h2 and kirbytext on snippet and template
+afdbb0b9670fa8dfe02f828ee20f540b135ec8d6 d0b06c35b79c7e74b62ed4f49c7c96dfb14ef6df Anwar Choukah <anwarchoukah@gmail.com> 1514555750 +0000	commit: TYPOGRAPHY: Better spacing around h1, h2, h3, etc. CONTENT: Migrate content from live site
+d0b06c35b79c7e74b62ed4f49c7c96dfb14ef6df f6f3aabecdf73b3ff12f54f8368b1c39d66cfeac Anwar Choukah <anwarchoukah@gmail.com> 1514555781 +0000	commit: .gitignore fix
+f6f3aabecdf73b3ff12f54f8368b1c39d66cfeac 243ac91d74819da17f7170856f00f51fd4b3b44c Anwar Choukah <anwarchoukah@gmail.com> 1514556399 +0000	commit: GITIGNORE: remove all .txt so content gets versioned
+243ac91d74819da17f7170856f00f51fd4b3b44c c325b94e44b4bb9ca2cd8704a6d94c99f03f35f5 Anwar Choukah <anwarchoukah@gmail.com> 1514898691 +0000	commit: HEADER: Make a bit more compact
+c325b94e44b4bb9ca2cd8704a6d94c99f03f35f5 d62e194f0ae2abdf6b80d3f57d742fcf47b35ca9 Anwar Choukah <anwarchoukah@gmail.com> 1514908628 +0000	commit: SIDEBAR: Fix pinboard link roll to be verical
+d62e194f0ae2abdf6b80d3f57d742fcf47b35ca9 1f3e77bb3b400bd2a5560df26e2969e6c2cf6c96 Anwar Choukah <anwarchoukah@gmail.com> 1514909712 +0000	commit: PROJECTS: Add Projects heading to snippet
+1f3e77bb3b400bd2a5560df26e2969e6c2cf6c96 ab66d9349bbe7ad19e07b9147d65a0fc5eea5e2a Anwar Choukah <anwarchoukah@gmail.com> 1514938451 +0000	commit: FOOTER: Fix positioning of social icons
+ab66d9349bbe7ad19e07b9147d65a0fc5eea5e2a 888442e32fb5d53d033166c09e3fb055455a1568 Anwar Choukah <anwarchoukah@gmail.com> 1515002830 +0000	commit: FOOTER: Individual social icons rather than a sprite
+888442e32fb5d53d033166c09e3fb055455a1568 785e19cfe9b196280d2f95f5d460781678146122 Anwar Choukah <anwarchoukah@gmail.com> 1515005844 +0000	commit: TEASERS: Make title more legible
+785e19cfe9b196280d2f95f5d460781678146122 c1e4e6b27f6e012d73910dc2025c54f7594bb685 Anwar Choukah <anwarchoukah@gmail.com> 1515007935 +0000	commit: FOOTER: Clean up, make more compact
+c1e4e6b27f6e012d73910dc2025c54f7594bb685 d3f508195108df94b0f6a612ef3c07190bf2fd6f Anwar Choukah <anwarchoukah@gmail.com> 1515081032 +0000	commit: CONTENT: Add Clio Media entry
+d3f508195108df94b0f6a612ef3c07190bf2fd6f 7e68fadbe3034a2b1ef1cd9e93a7d547e6e6f977 Anwar Choukah <anwarchoukah@gmail.com> 1515081115 +0000	commit: FOOTER: Social logos background-images get absolute urls
+7e68fadbe3034a2b1ef1cd9e93a7d547e6e6f977 ccf8fa26f6d3f3a528459f1bb52e9e932138c5c6 Anwar Choukah <anwarchoukah@gmail.com> 1515082348 +0000	commit: CONTENT: Edit Clio Media entry
+ccf8fa26f6d3f3a528459f1bb52e9e932138c5c6 1e4d4e24bb59d07499f0734fd75d9900e7bfa17b Anwar Choukah <anwarchoukah@gmail.com> 1517573313 +0000	commit: ADMIN: Addd anwarchoukah.sublime-project to root of folder, gitignore anwarchoukah.sublime-workspace
+1e4d4e24bb59d07499f0734fd75d9900e7bfa17b 6cf22feff60d567db5a015d416949ef7bf8d815d Anwar Choukah <anwarchoukah@gmail.com> 1518452197 +0000	commit: MAILCHIMP: Add template for email newsletters
+6cf22feff60d567db5a015d416949ef7bf8d815d dd190cf68d0328d55b0aed9410e1ec5ede59c5c4 Anwar Choukah <anwarchoukah@gmail.com> 1518454862 +0000	commit: MAILCHIMP: Remove from anwarchoukah project folder

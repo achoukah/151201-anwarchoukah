@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 b351fc5cd3a812430ec43dd116a2eb99d298b282 Anwar Choukah <anwarchoukah@gmail.com> 1475763530 +0100	commit (initial): First commit
+b351fc5cd3a812430ec43dd116a2eb99d298b282 a2a9b79d77f0c676318ec8a3c05680a542f5477f Anwar Choukah <anwarchoukah@gmail.com> 1475764752 +0100	commit: CONTENT: All content migrated from old site incl. folders, images and text
+a2a9b79d77f0c676318ec8a3c05680a542f5477f 5c23c29ab829d4ffd1161d38913243b344aeb020 Anwar Choukah <anwarchoukah@gmail.com> 1475764930 +0100	commit: STYLE: Add old main.css to new install
+5c23c29ab829d4ffd1161d38913243b344aeb020 9f7ee71696aaefb0993ffc29c71de1d31154678d Anwar Choukah <anwarchoukah@gmail.com> 1475765773 +0100	commit: HEADER: Remove Kirby Logo, replace with Site Title
+9f7ee71696aaefb0993ffc29c71de1d31154678d 400db7828104fb4db9c4a3d35e0701b8ac33bbaf Anwar Choukah <anwarchoukah@gmail.com> 1475779943 +0100	commit: FOOTER: Add SCSS files, social links, change Instagram logo plus hover colour, align icons properly
+400db7828104fb4db9c4a3d35e0701b8ac33bbaf dc8146bb3d8dbcee49d284d16b1728dfe8e067f2 Anwar Choukah <anwarchoukah@gmail.com> 1475781185 +0100	commit: NAV: Remove .submenu
+dc8146bb3d8dbcee49d284d16b1728dfe8e067f2 2e1d3159fded59ab80eda6eaba43ff133af639e9 Anwar Choukah <anwarchoukah@gmail.com> 1475916995 +0100	commit: SOCIAL NAV: Fix Instagram hover state
+2e1d3159fded59ab80eda6eaba43ff133af639e9 87d0f5e54718412d4f1e98dd2c40fe3f800297a5 Anwar Choukah <anwarchoukah@gmail.com> 1475917176 +0100	commit: CODE: Style pre and code - full-width
+87d0f5e54718412d4f1e98dd2c40fe3f800297a5 af22efd253c2307b56c94be346b5f480583d178b Anwar Choukah <anwarchoukah@gmail.com> 1475917303 +0100	commit: SOCIAL NAV: OOPS! Fix Instagram hover state part 2
+af22efd253c2307b56c94be346b5f480583d178b a9ea2d661971e91b8be404ec245fe94cf69da8aa Anwar Choukah <anwarchoukah@gmail.com> 1475919112 +0100	commit: CODE: Style code blocks with prism.js
+a9ea2d661971e91b8be404ec245fe94cf69da8aa 619f1db3bfb3c14bb156c5acbc4118307b000846 Anwar Choukah <anwarchoukah@gmail.com> 1475921092 +0100	commit: STRUCTURE: Add instagram (to be replaced with http://instafeedjs.com/)and Twitter embeds via sidebar snippet
+619f1db3bfb3c14bb156c5acbc4118307b000846 304638b7c3e57d29bd2cce15f85d37437e892000 Anwar Choukah <anwarchoukah@gmail.com> 1475935030 +0100	commit: CONTENT: Add Forient entry
+304638b7c3e57d29bd2cce15f85d37437e892000 466b69faaa44884bd75e711f922d15b514710cb4 Anwar Choukah <anwarchoukah@gmail.com> 1475938561 +0100	commit: CONTENT: Add Zipwyr entry
+466b69faaa44884bd75e711f922d15b514710cb4 c844c85fcb0d44957391d54c2661ca01d6367d7e Anwar Choukah <anwarchoukah@gmail.com> 1475939413 +0100	commit: PROJECTS: Better teasers
+c844c85fcb0d44957391d54c2661ca01d6367d7e d44e6a78103ba4b99e5665d2fb5ae61c6fd3ec19 Anwar Choukah <anwarchoukah@gmail.com> 1476176352 +0100	commit: PROJECT TEASERS: H3 on top of thumbnail
+d44e6a78103ba4b99e5665d2fb5ae61c6fd3ec19 8dfbb591c66946996c947b57c054ef0d087dff2c Anwar Choukah <anwarchoukah@gmail.com> 1476190441 +0100	commit: CONTENT: Add images for some projects and copy changes for Forient
+8dfbb591c66946996c947b57c054ef0d087dff2c 3ff4c93aec49b012548bbf7f701361e6a3522765 Anwar Choukah <anwarchoukah@gmail.com> 1476271320 +0100	commit: GITIGNORE: Add .psd, config.codekit and css files
+3ff4c93aec49b012548bbf7f701361e6a3522765 7840c85f63b85e26267814c22cb56f370a77c258 Anwar Choukah <anwarchoukah@gmail.com> 1476277237 +0100	commit: INSTAGRAM: Fuck it - Instagram widget removed and resize other widgets
+7840c85f63b85e26267814c22cb56f370a77c258 494f42dbc7165a409ed7c16267528406b7add727 Anwar Choukah <anwarchoukah@gmail.com> 1476279142 +0100	commit: TWITTER: Fine-tune
+494f42dbc7165a409ed7c16267528406b7add727 3bbf27961617df18621d12a64539e51efc651575 Anwar Choukah <anwarchoukah@gmail.com> 1476283640 +0100	commit: FOOTER: Rename colophon to social
+3bbf27961617df18621d12a64539e51efc651575 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1476308226 +0100	commit: DUNNO: Cant remember

@@ -19,6 +19,9 @@ Email:  support@getkirby.com
 @import "partials/variables";
 
 @import "partials/reset";
+
+@import "https://fonts.googleapis.com/css?family=Rubik:300,400,500,300italic,500italic|Roboto+Mono:300' rel='stylesheet";
+
 @import "partials/fonts";
 
 @import "partials/site";
@@ -28,6 +31,7 @@ Email:  support@getkirby.com
 @import "partials/typography";
 @import "partials/meta";
 @import "partials/uniform";
+@import "partials/prism";
 
 @import "partials/header";
 @import "partials/navigation";
@@ -38,3 +42,6 @@ Email:  support@getkirby.com
 
 @import "partials/projects";
 
+img {
+    border: medium dotted red !important;
+}

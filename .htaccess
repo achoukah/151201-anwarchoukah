@@ -9,15 +9,24 @@ RewriteRule .(gif|jpg|png)$ - [F]
 # End hotlink protection #
 
 
+# Begin cache control #
+ExpiresActive on
+ExpiresActive off
+<FilesMatch ".*">
+Header unset Cache-Control
+Header unset Expires
+Header unset Last-Modified
+FileETag None
+Header unset Pragma
+</FilesMatch>
+# End cache control #
 DirectoryIndex index.php
-
-
-#ErrorDocument 404 Custom Message : "404 page not found"
 
 
 Options -Indexes
 
 
+#ErrorDocument 404 Custom Message : "404 page not found"
 # Kirby .htaccess
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -32,6 +41,8 @@ Options -Indexes
 # Set the RewriteBase to:
 #
 # RewriteBase /mysite
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.(\d+)\.(js|css)$ $1.$3 [L]
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
 # block all files in the site folder from being accessed directly

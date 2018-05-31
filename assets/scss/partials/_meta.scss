@@ -2,15 +2,21 @@
 -------------------------------------------------- */
 .meta {
   margin-bottom: 1.5em;
+  font-size: .8em;
+  padding: 0.5em 0;
+  border-top: thin solid $colour-accent;
+  border-bottom: thin solid $colour-accent;
+
+  display: none;
 }
 .meta li {
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: $colour-secondary;
+  color: $bk-tr-5;
 }
 .meta li b {
-  color: #000;
+  color: $bk-tr-6;
   padding-right: .25em;
 }
 

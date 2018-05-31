@@ -1,0 +1,11 @@
+Title: Thank you
+
+----
+
+Text:
+
+## Get in touch
+
+I will attempt to get back you you as soon as possible.
+
+Back to (link: /projects text: Projects)

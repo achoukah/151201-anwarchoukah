@@ -1,0 +1,32 @@
+Title: Clio Media - Website Design
+
+----
+
+Year:
+2017
+
+----
+
+Text:
+
+(image: 00-projects-cliomedia-main.png alt: Clio Media Logo)
+
+
+Content consultancy, logo design, technical set-up for personal website for professional journalists Anthony Harwood and Tanith Carey.
+
+They decided to work together and have a unified front on the web.
+
+They got in touch with me, requiring a fast turnaround for minimum cost. They needed a logo, and a functioning website.
+
+I suggested (link: //squarespace.com/ text: Squarespace popup: yes title: Squarespace website), which I find to be remarkable value for money with the least amount of hassle.
+
+SEO was done as a matter of course at the end of the development phase.
+
+Check it out here: (link: //cliomedia.co.uk text: cliomedia.co.uk title: Clio Media website popup: yes)
+
+(image: 01-projects-cliomedia-site.jpg alt: Clio Media Website screenshots caption: Clio Media Squarespace home page)
+
+----
+
+Tags:
+Web Design, SEO, UI, UX

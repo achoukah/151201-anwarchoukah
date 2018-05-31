@@ -1,60 +1,88 @@
-/* Project teaser
+/* Projects
 -------------------------------------------------- */
+.project {
+  h1 {
+    padding-bottom : 0.5em;
+
+    border-bottom : medium solid $colour-main;
+  }
+}
+
 .teaser {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display : flex;
+  flex-direction : row;
 
+  justify-content : space-between;
+  flex-wrap : wrap;
   li {
-    margin: 0 0 0.5em;
-    padding: 1em 1em 0;
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 100%;
-    box-shadow: 0 0 3em -0.5em $bk-tr-1;
-    background-color: $wh-tr-2;
-    transition: all .2s ease-in-out;
+    display : flex;
+    flex-direction : column;
 
+    margin : 0 0 1.5em;
+    padding : 0;
+
+    transition : all 0.2s ease-in-out;
+
+    background-color : $wh-tr-2;
+    box-shadow : 0 0 3em -0.5em $bk-tr-1;
+
+    justify-content : space-between;
+    flex : 0 0 100%;
     @media screen and (min-width: 50em) {
-      flex: 0 0 49%;
+      flex : 0 0 48%;
     }
-    &:hover {
-      background-color: $wh-tr-4;
-    }
-    > a {
-      margin-top: auto;
-    }
-    h3 {
-      margin-bottom: 1em;
+    a {
+      position : relative;
 
-      a {
-        display: block;
-        padding: 0 0 0.3em 0;
-        box-shadow: inset 0 0 0 $yl-md;
+      width : 100%;
+      height : 100%;
 
-        &:hover {
-          padding: 0 0 0.3em 0;
-          box-shadow: inset 0 -0.5rem 0 $yl-md;
+      box-shadow : none;
+      &:hover {
+        box-shadow : none;
+        h3 {
+          // color : $yl-md;
+          background-color : $bl-dk;
+          // padding : 0.25em 0.75em;
         }
       }
     }
-    p {
+    &:hover {
+      background-color : $wh-tr-6;
+    }
+    h3 {
+      font-weight : 300;
 
+      position : absolute;
+      bottom : 0;
+      right : 0;
+
+      margin-bottom : 0;
+      padding : 0.25em 0.5em;
+
+      transition : all 0.2s ease-in-out;
+
+      color : $wh-lt;
+      background-color : $bl-md;
+    }
+    p {
     }
   }
   .read-more {
-    margin-top: auto;
-    align-self: flex-end;
-    text-align: right;
+    margin-top : auto;
+
+    text-align : right;
+
+    align-self : flex-end;
   }
   .project-thumb {
-    box-shadow: none;
-    margin-bottom: 0.5em;
+    margin-bottom : 0.5em;
 
+    box-shadow : none;
     &:hover {
-      padding: 0;
-      box-shadow: none;
+      padding : 0;
+
+      box-shadow : none;
     }
   }
 }

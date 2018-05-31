@@ -1,0 +1,131 @@
+Title: About me
+
+----
+
+Text: 
+
+## Web & Graphic, UI, UX, Front-end designer
+
+I’ve been a **web and graphic designer** since 1999 and **I love what I do**.
+
+I focus on **beautiful**, **responsive**, **cross-browser friendly code** and **device-agnostic web design**.
+
+Originally from **Oslo, Norway**, I now live in **London, UK**.
+
+## Who I am
+
+(image: anwar-choukah-profile-pic.jpg alt: Anwar Choukah portrait picture)
+
+I’m an **experienced front-end web and graphic designer** and **typography nerd**. I love the web and enjoy trying to make it **better**, **more accessible**, and **more legible**.
+
+I am fluent in English, Norwegian, and French, fair to middling in Arabic.
+
+I’ve had the opportunity to work for clients like [The Sun][sol], [The Sunday Times][st], [UTV][utv], [Google][google], [Hit Creative][hit], [Forient][forient], and [Tool Shed][toolshed].
+
+### What else do I love?
+
+Gigs, music, watching good TV shows, reading books (mainly sci-fi and non-fiction), cooking, spending time with my family.
+
+<section class="section-dark" markdown="1">
+
+<div class="columns-2 column-left" markdown="1">
+
+## What I bring
+
+* **HTML5 semantic markup**, **CSS**, **Sketch** and **Creative Suite** expertise
+* **UX and UI design**, **logo design**, **branding and identity**
+* **GIT**, **Gulp**, **WordPress**, **static site generators**
+* 15+ years experience web design, in large and small teams and as a lone wolf
+* Up-to-date and eager to stay abreast of modern web developments
+
+</div>
+
+
+<div class="columns-2 column-right" markdown="1">
+
+## UI Development
+
+I love taking designs (often my own) and convert them into live websites, whether they need a CMS like (link: http://www.wordpress.org text: WordPress popup: yes) or (link: https://getkirby.com text: Kirby popup: yes). This is where I find that UI micro-interactions and animations make a design come to life.
+
+As a matter of course, accessibility, Search Engine Optimisation, and semantic markup are an integral part of how I work.
+
+Check out (link: http://codepen.io/achoukah/ text: some examples on CodePen popup: yes).
+
+</div>
+
+
+<div class="columns-1 text-center" markdown="1">
+
+ ## UI/UX Design
+
+I love pushing pixels around. Whether it is creating layouts, dashboards, logos, I’m all over it.
+
+</div>
+
+</section>
+
+# SKILLSET
+
+## Proficiencies
+
+* Responsive design, progressive enhancement, mobile first layouts
+* CSS3 keyframe animation and transitions, micro-interactions, SVG animation
+* SEO, Google Analytics, Webtrends
+* Familiar with modern CSS Frameworks, CSS Flexbox & CSS Grid
+* W3C standards, ARIA roles, Accessibility & Section 508
+* Email Dev - custom table layouts
+* Wordpress theming
+* Scrum - Agile/Sprint Development
+
+
+## Toolset
+
+* 13-inch MacBook Pro (early 2015)
+* Coding: Sublime Text 3
+* Design: Photoshop, Illustrator, InDesign, Affinity Designer, Sketch
+* Wireframing: Apple Keynote, Fluid UI
+* SASS, Compass/Bourbon, Atomic Design, BEM & OOCSS
+* Git, SVN, Gulp, Bitbucket, Github, iTerm
+* Forklift FTP
+* MAMP, Local by Flywheel
+* MS Office Suite, Google Docs
+
+# History
+
+## Experience
+
+* 2017-Present: [Tender Digital][tender], Lead Technical Designer
+* 2016: [Forient][forient], Lead Web Designer
+* 2012-2016: [The Sun][sol], Deputy Art Director
+* 2003-2005: [News of the World][notw], Senior Designer
+* 1999-2004: [The Currant Bun][sol], Junior Designer
+* 1997-1999: [DotMusic][dotmusic], Researcher
+
+## Education
+
+* 1998-2001: London College of Printing (UAL London), BA (hons) Media and Graphic Design
+* 1987-1991: Lycée Rene Cassin Oslo, Baccalaureat C Scientifique
+
+
+
+## Contact me
+
+Coming soon
+
+
+
+
+
+[sol]: http://thesun.co.uk
+[st]: http://www.thetimes.co.uk/?sunday
+[google]: http://www.google.co.uk/
+[utv]: http://u.tv
+[hit]: http://www.hitcreative.com
+[forient]:http://www.forient.com
+[toolshed]:http://toolshed.london
+[wp]: http://www.wordpress.org
+[kirby]: https://getkirby.com
+[codepen]: http://codepen.io/achoukah/
+[tender]: http://tenderdigital.com
+[notw]: https://en.wikipedia.org/wiki/News_of_the_World
+[dotmusic]: https://en.wikipedia.org/wiki/Dotmusic

@@ -1,0 +1,36 @@
+Title: Forient - Digital Agency
+
+----
+
+Year:
+2016
+
+----
+
+Text:
+
+(image: 00-projects-forient-main.png alt: Forient caption: Forient web site)
+
+### Lead Web Designer for Forient
+
+Forient is a web, app, design, content, and strategy agency based in London. Projects range from large media company CMS and websites, to microsites, white-label templates, mobile apps, bespoke CMS, and dashboards.
+
+As Lead Web Designer, I interpret Project Manager and client goals while balancing with user expectations, liaise with development teams, keep projects aligned to brand guidelines, and advise on development and customer requirement conflicts.
+
+Brand development, website traffic growth, website UI. Web, graphic and creative front-end design for a small app and web development agency.
+
+(image: 01-projects-forient-travel.png alt: Forient caption: Travel site mockup using Material Design by Google)
+
+(image: 02-projects-forient-altchar.png alt: Forient - AltChar gaming website caption: AltChar Gaming website designs)
+
+(image: 03-projects-forient-dashboards.png alt: Forient - Dashboard designs caption: Various website dashboard designs)
+
+
+
+
+
+
+----
+
+Tags:
+Art Direction, Web Design

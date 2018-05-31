@@ -1,7 +1,9 @@
-.DS_Store
-/site/accounts
-/assets/avatars
-/thumbs/*
+*.psd
 *.codekit
+*.codekit3
 *.css
-*.codekit
+commit-msg.txt
+/tlapse/*
+*.sketch
+*.sublime-workspace
+*.icloud

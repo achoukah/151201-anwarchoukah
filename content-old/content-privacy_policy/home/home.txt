@@ -1,0 +1,28 @@
+Title: Hello!
+
+----
+
+Text:
+
+**Web, graphic and front-end designer from Norway living in London.**
+
+A hard-working, highly creative, skilled and dedicated designer with over 20 years’ experience in graphic and web design. Able to thrive under tight deadlines.
+
+An enthusiastic and collaborative team player with an aptitude to converse across teams and at all levels.
+
+Keeps up-to-date with any current and future web developments;
+
+- Responsive media queries, flex-box, CSS grid
+- CSS pre-processors
+- Web typography
+- Accessibility
+- Performance
+
+Personable, reliable, and trustworthy; always determined to work to the best of his ability and always ready for a challenge, especially when it offers the opportunity to learn.
+
+I'm also on various social networks:
+
+- (twitter: @achoukah text: Twitter)
+- (link: //instagram.com/garbad text: Instagram)
+- (link: //GitHub.com/achoukah text: GitHub)
+- (link: https://uk.linkedin.com/in/anwarchoukah text: LinkedIn title: Anwar Choukah on LinkedIn)

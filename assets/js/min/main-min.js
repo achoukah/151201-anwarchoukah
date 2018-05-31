@@ -1,0 +1,1 @@
+window.onload=function(){setTimeout(function(){for(var t=document.getElementById("pinboard_linkroll").getElementsByTagName("a"),e=0;e<t.length;e++)t[e].setAttribute("target","_blank")},500)};

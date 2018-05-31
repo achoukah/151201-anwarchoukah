@@ -11,6 +11,8 @@
 
     <?php snippet('projects') ?>
 
+    <?php snippet('sidebar')?>
+
   </main>
 
 <?php snippet('footer') ?>

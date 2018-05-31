@@ -6,11 +6,11 @@
   flex-direction: column;
   max-width: 46em;
   width: 100%;
-  padding: 1.5em 1em 1.5em;
+  padding: 5em 1em 1.5em;
   margin: auto;
 
   @media screen and (min-width: 40em) {
-    padding: 2em 4em 1.5em;
+    // padding: 2em 4em 1.5em;
   }
 
   hr {
@@ -49,6 +49,7 @@ figure {
   figcaption {
     font-size: .9em;
     padding: .5em 1em;
-    color: $bk-tr-5;
+    color: rgba($colour-secondary, 0.6);
+    border-bottom: thin solid currentColor;
   }
 }

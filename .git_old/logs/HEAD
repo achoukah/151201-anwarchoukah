@@ -1,0 +1,107 @@
+0000000000000000000000000000000000000000 b351fc5cd3a812430ec43dd116a2eb99d298b282 Anwar Choukah <anwarchoukah@gmail.com> 1475763530 +0100	commit (initial): First commit
+b351fc5cd3a812430ec43dd116a2eb99d298b282 a2a9b79d77f0c676318ec8a3c05680a542f5477f Anwar Choukah <anwarchoukah@gmail.com> 1475764752 +0100	commit: CONTENT: All content migrated from old site incl. folders, images and text
+a2a9b79d77f0c676318ec8a3c05680a542f5477f 5c23c29ab829d4ffd1161d38913243b344aeb020 Anwar Choukah <anwarchoukah@gmail.com> 1475764930 +0100	commit: STYLE: Add old main.css to new install
+5c23c29ab829d4ffd1161d38913243b344aeb020 9f7ee71696aaefb0993ffc29c71de1d31154678d Anwar Choukah <anwarchoukah@gmail.com> 1475765773 +0100	commit: HEADER: Remove Kirby Logo, replace with Site Title
+9f7ee71696aaefb0993ffc29c71de1d31154678d 400db7828104fb4db9c4a3d35e0701b8ac33bbaf Anwar Choukah <anwarchoukah@gmail.com> 1475779943 +0100	commit: FOOTER: Add SCSS files, social links, change Instagram logo plus hover colour, align icons properly
+400db7828104fb4db9c4a3d35e0701b8ac33bbaf dc8146bb3d8dbcee49d284d16b1728dfe8e067f2 Anwar Choukah <anwarchoukah@gmail.com> 1475781185 +0100	commit: NAV: Remove .submenu
+dc8146bb3d8dbcee49d284d16b1728dfe8e067f2 2e1d3159fded59ab80eda6eaba43ff133af639e9 Anwar Choukah <anwarchoukah@gmail.com> 1475916995 +0100	commit: SOCIAL NAV: Fix Instagram hover state
+2e1d3159fded59ab80eda6eaba43ff133af639e9 87d0f5e54718412d4f1e98dd2c40fe3f800297a5 Anwar Choukah <anwarchoukah@gmail.com> 1475917176 +0100	commit: CODE: Style pre and code - full-width
+87d0f5e54718412d4f1e98dd2c40fe3f800297a5 af22efd253c2307b56c94be346b5f480583d178b Anwar Choukah <anwarchoukah@gmail.com> 1475917303 +0100	commit: SOCIAL NAV: OOPS! Fix Instagram hover state part 2
+af22efd253c2307b56c94be346b5f480583d178b a9ea2d661971e91b8be404ec245fe94cf69da8aa Anwar Choukah <anwarchoukah@gmail.com> 1475919112 +0100	commit: CODE: Style code blocks with prism.js
+a9ea2d661971e91b8be404ec245fe94cf69da8aa 619f1db3bfb3c14bb156c5acbc4118307b000846 Anwar Choukah <anwarchoukah@gmail.com> 1475921092 +0100	commit: STRUCTURE: Add instagram (to be replaced with http://instafeedjs.com/)and Twitter embeds via sidebar snippet
+619f1db3bfb3c14bb156c5acbc4118307b000846 304638b7c3e57d29bd2cce15f85d37437e892000 Anwar Choukah <anwarchoukah@gmail.com> 1475935030 +0100	commit: CONTENT: Add Forient entry
+304638b7c3e57d29bd2cce15f85d37437e892000 466b69faaa44884bd75e711f922d15b514710cb4 Anwar Choukah <anwarchoukah@gmail.com> 1475938561 +0100	commit: CONTENT: Add Zipwyr entry
+466b69faaa44884bd75e711f922d15b514710cb4 c844c85fcb0d44957391d54c2661ca01d6367d7e Anwar Choukah <anwarchoukah@gmail.com> 1475939413 +0100	commit: PROJECTS: Better teasers
+c844c85fcb0d44957391d54c2661ca01d6367d7e d44e6a78103ba4b99e5665d2fb5ae61c6fd3ec19 Anwar Choukah <anwarchoukah@gmail.com> 1476176352 +0100	commit: PROJECT TEASERS: H3 on top of thumbnail
+d44e6a78103ba4b99e5665d2fb5ae61c6fd3ec19 8dfbb591c66946996c947b57c054ef0d087dff2c Anwar Choukah <anwarchoukah@gmail.com> 1476190441 +0100	commit: CONTENT: Add images for some projects and copy changes for Forient
+8dfbb591c66946996c947b57c054ef0d087dff2c 3ff4c93aec49b012548bbf7f701361e6a3522765 Anwar Choukah <anwarchoukah@gmail.com> 1476271320 +0100	commit: GITIGNORE: Add .psd, config.codekit and css files
+3ff4c93aec49b012548bbf7f701361e6a3522765 7840c85f63b85e26267814c22cb56f370a77c258 Anwar Choukah <anwarchoukah@gmail.com> 1476277237 +0100	commit: INSTAGRAM: Fuck it - Instagram widget removed and resize other widgets
+7840c85f63b85e26267814c22cb56f370a77c258 494f42dbc7165a409ed7c16267528406b7add727 Anwar Choukah <anwarchoukah@gmail.com> 1476279142 +0100	commit: TWITTER: Fine-tune
+494f42dbc7165a409ed7c16267528406b7add727 3bbf27961617df18621d12a64539e51efc651575 Anwar Choukah <anwarchoukah@gmail.com> 1476283640 +0100	commit: FOOTER: Rename colophon to social
+3bbf27961617df18621d12a64539e51efc651575 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1476308226 +0100	commit: DUNNO: Cant remember
+54ea7e2e288983bcf12de67e71d4860c71baa45d 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1485181374 +0000	checkout: moving from master to version2
+54ea7e2e288983bcf12de67e71d4860c71baa45d c086f735283c3ea4fa482d28308a6eb55f619a20 Anwar Choukah <anwarchoukah@gmail.com> 1485181395 +0000	commit: HEADER: Move to top and fix .main and footer
+c086f735283c3ea4fa482d28308a6eb55f619a20 fdba29a82822dcf3715b1f9edb6282455fb22fc8 Anwar Choukah <anwarchoukah@gmail.com> 1485182055 +0000	commit: HEADER: Site-title upper-case, remove font-weight: 500
+fdba29a82822dcf3715b1f9edb6282455fb22fc8 91dd70cb1193d69d1a6f156f3ae97b3265addc30 Anwar Choukah <anwarchoukah@gmail.com> 1485182664 +0000	commit: HEADER: Less height
+91dd70cb1193d69d1a6f156f3ae97b3265addc30 1aa1f8aded5b0586d649a79f687316200f427759 Anwar Choukah <anwarchoukah@gmail.com> 1485187307 +0000	commit: CONTENT: New about-me page
+1aa1f8aded5b0586d649a79f687316200f427759 af4bbe2d3f77ea7dfecb194f6ab490379bd12adc Anwar Choukah <anwarchoukah@gmail.com> 1485273880 +0000	commit: SERVER STUFF: htaccess file, humans.txt, and robots.txt
+af4bbe2d3f77ea7dfecb194f6ab490379bd12adc 91236bb9df11aa538fa1b651be3100f8b076d368 Anwar Choukah <anwarchoukah@gmail.com> 1485275192 +0000	commit: ADMIN: Sorted out admin panel login
+91236bb9df11aa538fa1b651be3100f8b076d368 5f733cb44d0d38b043deba347c1cc9e543b255ce Anwar Choukah <anwarchoukah@gmail.com> 1485276649 +0000	commit: MOBILE: .main padding-top for top nav
+5f733cb44d0d38b043deba347c1cc9e543b255ce c2b02c5fe403dba0aab9a02e45e17ee54f7feaf4 Anwar Choukah <anwarchoukah@gmail.com> 1485277012 +0000	commit: NAV: Mobile nav smaller text, more padding between elements
+c2b02c5fe403dba0aab9a02e45e17ee54f7feaf4 885d71eb09b085406bd1578d60de535e149b97bd Anwar Choukah <anwarchoukah@gmail.com> 1485349122 +0000	commit: TYPOGRAPHY: Better spacing between headings and paragraphs
+885d71eb09b085406bd1578d60de535e149b97bd 43ac1066cd38b50f91722cdd9b2b3aac232895bb Anwar Choukah <anwarchoukah@gmail.com> 1485349834 +0000	commit: PHP: Structure change on projects page - remove h1
+43ac1066cd38b50f91722cdd9b2b3aac232895bb a22a57523d0cdd98a529adec846ddfad831344ee Anwar Choukah <anwarchoukah@gmail.com> 1485351140 +0000	commit: FOOTER: Remove legacy padding-bottom
+a22a57523d0cdd98a529adec846ddfad831344ee bfc5856fe37fec1064e8aa0d8f693f085eca4336 Anwar Choukah <anwarchoukah@gmail.com> 1485351548 +0000	commit: STRUCTURE: Rename about to about-me
+bfc5856fe37fec1064e8aa0d8f693f085eca4336 27a7becbac66a3b36cff39f4981aaf39443d0043 Anwar Choukah <anwarchoukah@gmail.com> 1485352979 +0000	commit: TYPOGRAPHY: h2, h3, h4 font-weight: 300
+27a7becbac66a3b36cff39f4981aaf39443d0043 96c702feb9a09211a8aec2cbb131444f511f7ac4 Anwar Choukah <anwarchoukah@gmail.com> 1485361486 +0000	commit: STRUCTURE: About Me page gets 2 column dark design
+96c702feb9a09211a8aec2cbb131444f511f7ac4 c81410dbd3982798e258f3f0154e572ac51ec7da Anwar Choukah <anwarchoukah@gmail.com> 1501161919 +0100	commit: ANALYTICS: Add HotJar tracking JS
+c81410dbd3982798e258f3f0154e572ac51ec7da 8ba266b21ebffdec759f40b08840a72a181a07f0 Anwar Choukah <anwarchoukah@gmail.com> 1501173716 +0100	commit: KIRBY UPDATE: Update to Kirby 2.5.2
+8ba266b21ebffdec759f40b08840a72a181a07f0 7e89df77f6f1cb108a7f418554bc9a12ad7281fb Anwar Choukah <anwarchoukah@gmail.com> 1501247852 +0100	commit: MQ: Fix mq-s - change min-width to max-width and SECTION-DARK: Better width on mobile
+7e89df77f6f1cb108a7f418554bc9a12ad7281fb 773f95da19eae3264d6ae9845efdd8dd7ed7dfde Anwar Choukah <anwarchoukah@gmail.com> 1501251893 +0100	commit: CONTACT FORM: Add to contact me page
+773f95da19eae3264d6ae9845efdd8dd7ed7dfde db8781f604a734a7f4a6ef03e6b7b6042c41b0dd Anwar Choukah <anwarchoukah@gmail.com> 1501252215 +0100	commit: MQ-S: Make section-dark single column on mobile and tweak h2 margin-top
+db8781f604a734a7f4a6ef03e6b7b6042c41b0dd e44c5c567563b0eeec2ffbfaf987e2f080cef0b2 Anwar Choukah <anwarchoukah@gmail.com> 1501253054 +0100	commit: MQ: section-dark tweaks - margins and widths
+e44c5c567563b0eeec2ffbfaf987e2f080cef0b2 882a3d917dad143ce9a8378d954655b971f7d8dc Anwar Choukah <anwarchoukah@gmail.com> 1501254361 +0100	commit: MQ: section-dark tweaks - margins and widths
+882a3d917dad143ce9a8378d954655b971f7d8dc 4255cdda837becc0bb07a7ab8752b4775637f25f Anwar Choukah <anwarchoukah@gmail.com> 1501255313 +0100	commit: MQ: section-dark tweaks - margins and widths
+4255cdda837becc0bb07a7ab8752b4775637f25f c445f7a797e52a9981ee9ab80092790d2043da54 Anwar Choukah <anwarchoukah@gmail.com> 1501255576 +0100	commit: CONTACT: Add c::set email stuff in config.php
+c445f7a797e52a9981ee9ab80092790d2043da54 c1517c48d8c2d7e16fb34b0836f994bd832411d5 Anwar Choukah <anwarchoukah@gmail.com> 1501257355 +0100	commit: HEADER: Fix css path and fine-tune header css
+c1517c48d8c2d7e16fb34b0836f994bd832411d5 5fbfd77f969b698babbcca80f221ddbec87a9baf Anwar Choukah <anwarchoukah@gmail.com> 1501334832 +0100	commit: /index.php
+5fbfd77f969b698babbcca80f221ddbec87a9baf b44c878a5c68efdc71ab69aa64b283b7072777e9 Anwar Choukah <anwarchoukah@gmail.com> 1501335405 +0100	commit (amend): 'HOMEPAGE: Fix mq Twitter and Pinboard columns - .sidebar'
+b44c878a5c68efdc71ab69aa64b283b7072777e9 b5b1282835eed6a4355459ef3ac24b7fbcd05a09 Anwar Choukah <anwarchoukah@gmail.com> 1501335743 +0100	commit: SECTION-DARK: Fix margin-left on column-right
+b5b1282835eed6a4355459ef3ac24b7fbcd05a09 d97c770d7be4c4e0aa3f2b0914695b2f4f01fe55 Anwar Choukah <anwarchoukah@gmail.com> 1501336089 +0100	commit: CONTENT: Amend about-me.txt
+d97c770d7be4c4e0aa3f2b0914695b2f4f01fe55 5a875bb1832fe2f50f7b9720fc0878e95e1a7e26 Anwar Choukah <anwarchoukah@gmail.com> 1501336279 +0100	commit: HEADER: Less background blur and less opacity
+5a875bb1832fe2f50f7b9720fc0878e95e1a7e26 b9a1c82a19272fe26d297ed892ef9bccbf1fe3e1 Anwar Choukah <anwarchoukah@gmail.com> 1501336765 +0100	commit: HEADER: Better padding on .site-title an .menu
+b9a1c82a19272fe26d297ed892ef9bccbf1fe3e1 573f5d0a9876fdae067ed55dd5f944a7b9f3323c Anwar Choukah <anwarchoukah@gmail.com> 1501337553 +0100	commit: STRUCTURE: .main and .section-dark more margin-right -left on mq-s
+573f5d0a9876fdae067ed55dd5f944a7b9f3323c b740601f80aaf8fba6a3397adefead03fd124219 Anwar Choukah <anwarchoukah@gmail.com> 1501337711 +0100	commit: SECTION-DARK: Border-top on .text-center
+b740601f80aaf8fba6a3397adefead03fd124219 a3c7246f264b4c2ba027693170098b197cd8d941 Anwar Choukah <anwarchoukah@gmail.com> 1501338696 +0100	commit: HEADER: Centre .logo vertically
+a3c7246f264b4c2ba027693170098b197cd8d941 be7bc2650f7a6a56bc8aeed1c597eb5e9f027e65 Anwar Choukah <anwarchoukah@gmail.com> 1501498772 +0100	commit: GOOGLE ANALYTICS: Added to header.php
+be7bc2650f7a6a56bc8aeed1c597eb5e9f027e65 3649e6b7a002b895d877ed6ab6f09bd97485568b Anwar Choukah <anwarchoukah@gmail.com> 1501504153 +0100	commit: FULL STORY: Add js to header.php
+3649e6b7a002b895d877ed6ab6f09bd97485568b 3649e6b7a002b895d877ed6ab6f09bd97485568b Anwar Choukah <anwarchoukah@gmail.com> 1501523548 +0100	reset: moving to 3649e6b7a002b895d877ed6ab6f09bd97485568b
+3649e6b7a002b895d877ed6ab6f09bd97485568b 5cacb0f14ce50e2417cc3368c0ecc07a054100ea Anwar Choukah <anwarchoukah@gmail.com> 1501527165 +0100	commit: CONTENT: Make local version most up-to-date
+5cacb0f14ce50e2417cc3368c0ecc07a054100ea 8db94063b4f229da1d35c2e64da5a2467ff28b05 Anwar Choukah <anwarchoukah@gmail.com> 1501528440 +0100	commit: NAV: Remove bold on .active and finetune border-bottom and SIDEBAR: Less margin-bottom under h4
+8db94063b4f229da1d35c2e64da5a2467ff28b05 4456d2c522091420445155d730aeb908aea407cb Anwar Choukah <anwarchoukah@gmail.com> 1501529070 +0100	commit: DUNNO: Last commit of the day - hygiene, pretty much
+4456d2c522091420445155d730aeb908aea407cb ee60c3c95912590eec153faf027f6b79db20f920 Anwar Choukah <anwarchoukah@gmail.com> 1501583512 +0100	commit: IMAGES: Optimisation - convert to jpg and width: 800px
+ee60c3c95912590eec153faf027f6b79db20f920 ecc042204ffd508a9866a1b82343da5595a31c6f Anwar Choukah <anwarchoukah@gmail.com> 1501680400 +0100	commit: CRITICAL CSS: Add all css to inline stylesheet in head of header.php
+ecc042204ffd508a9866a1b82343da5595a31c6f 5674c39ad2fd260fca1d78bcd0f30c0fc08a9a52 Anwar Choukah <anwarchoukah@gmail.com> 1501690680 +0100	commit: IMAGES: .floated class styling, add illustration by Bob London
+5674c39ad2fd260fca1d78bcd0f30c0fc08a9a52 70c83770f1fe5fee8f6e23a2727f0a8501316e58 Anwar Choukah <anwarchoukah@gmail.com> 1501780323 +0100	commit: IMAGES: Change Kirby conf1g.php to use ImageMagick rather than GD and copy change on about-me
+70c83770f1fe5fee8f6e23a2727f0a8501316e58 e9534820653a54e6353a4a333c21fbd15143f27b Anwar Choukah <anwarchoukah@gmail.com> 1502367654 +0100	commit: NAV: Make margin-left:auto the default, not just mq-m in order to fix alignment of nav in header
+e9534820653a54e6353a4a333c21fbd15143f27b a3a592bfbcb94fe7dad28f20761179406031c02f Anwar Choukah <anwarchoukah@gmail.com> 1502909955 +0100	commit: NAV: Make horizontal on desktop and introduce basic hamburger implementation with checkbox hack
+a3a592bfbcb94fe7dad28f20761179406031c02f 966bf3a59992743bb519cbfc22238762cd2f59ca Anwar Choukah <anwarchoukah@gmail.com> 1502973795 +0100	commit: NAV: Style hamburger according to .sketch mockup
+966bf3a59992743bb519cbfc22238762cd2f59ca 3a20117b6cde7d25aea9cca0d0e0dc682e81e804 Anwar Choukah <anwarchoukah@gmail.com> 1502980961 +0100	commit: NAV: Fix bug with span covering hamburger
+3a20117b6cde7d25aea9cca0d0e0dc682e81e804 3bbd7a623d801c334bdc793cef693d3a90fffbde Anwar Choukah <anwarchoukah@gmail.com> 1502982997 +0100	commit: NAV: Style mq-s drop-in menu items according to .sketch mockup and animate
+3bbd7a623d801c334bdc793cef693d3a90fffbde 4925c0aa37ba4097421d4063bfd37056d86b3264 Anwar Choukah <anwarchoukah@gmail.com> 1502983331 +0100	commit: NAV: Fine-tine hamburger position closer to the right edge
+4925c0aa37ba4097421d4063bfd37056d86b3264 ad7aca2942e9da8ddf10eb399a8b97d3f4929fe4 Anwar Choukah <anwarchoukah@gmail.com> 1502983526 +0100	commit: NAV: Add background blur to mq-s nav
+ad7aca2942e9da8ddf10eb399a8b97d3f4929fe4 8a564fe889af77509dd91a23c81cb17dfb4a10c9 Anwar Choukah <anwarchoukah@gmail.com> 1502983652 +0100	commit (amend): NAV: Add background blur to mq-s nav and less margin-top on .main
+8a564fe889af77509dd91a23c81cb17dfb4a10c9 1d4190815069aa551e3d39435a32e03282dc5896 Anwar Choukah <anwarchoukah@gmail.com> 1502984258 +0100	commit: SECTION-DARK: Better padding-top
+1d4190815069aa551e3d39435a32e03282dc5896 a5b178981bc904d1df4cb3fb0f6d9798a79c5716 Anwar Choukah <anwarchoukah@gmail.com> 1502984891 +0100	commit: NAV: Better padding on menu-items
+a5b178981bc904d1df4cb3fb0f6d9798a79c5716 74c49aca5dea0690546e57b45cb8f3c9c4ab5ea8 Anwar Choukah <anwarchoukah@gmail.com> 1502985337 +0100	commit: MAIN: mq-s Less padding-left and -right
+74c49aca5dea0690546e57b45cb8f3c9c4ab5ea8 8812af07d6d43c67d6d28ec242582faace21b4bc Anwar Choukah <anwarchoukah@gmail.com> 1502985832 +0100	commit: PROJECTS: Remove full-width on large desktop
+8812af07d6d43c67d6d28ec242582faace21b4bc c828fef97cae06233ad48fc82affbeea7f7f7af1 Anwar Choukah <anwarchoukah@gmail.com> 1502985960 +0100	commit: NAV: Make horizontal on desktop
+c828fef97cae06233ad48fc82affbeea7f7f7af1 1997bdb79362c620bfa1f19415bde73684c9b3e8 Anwar Choukah <anwarchoukah@gmail.com> 1502994474 +0100	commit: DONE FOR NOW. Just remains to finetune font-sizes and -weights
+1997bdb79362c620bfa1f19415bde73684c9b3e8 b3d036628b472a9d17ba55bca0476e074c870784 Anwar Choukah <anwarchoukah@gmail.com> 1506330533 +0100	commit: GITIGNORE: codekit3 files
+b3d036628b472a9d17ba55bca0476e074c870784 a26a373ba7f17a5d94bbc07724be5388ae44997f Anwar Choukah <anwarchoukah@gmail.com> 1514485323 +0000	commit: GITIGNORE: Add .icloud files
+a26a373ba7f17a5d94bbc07724be5388ae44997f 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1514486269 +0000	checkout: moving from version2 to master
+54ea7e2e288983bcf12de67e71d4860c71baa45d 54ea7e2e288983bcf12de67e71d4860c71baa45d Anwar Choukah <anwarchoukah@gmail.com> 1514486325 +0000	checkout: moving from master to version3
+54ea7e2e288983bcf12de67e71d4860c71baa45d 138745dd96a63942a2757c0455159814d9888b80 Anwar Choukah <anwarchoukah@gmail.com> 1514488427 +0000	commit: PROJECT TEASERS: Change background colour on hover state of teaser h3 and gitignore .txt files
+138745dd96a63942a2757c0455159814d9888b80 a26a373ba7f17a5d94bbc07724be5388ae44997f Anwar Choukah <anwarchoukah@gmail.com> 1514488987 +0000	checkout: moving from version3 to version2
+a26a373ba7f17a5d94bbc07724be5388ae44997f c3cc1f8eaa1345ec1beb604159f15ccc7b78b562 Anwar Choukah <anwarchoukah@gmail.com> 1514489174 +0000	commit: GITIGNORE: .codekit3
+c3cc1f8eaa1345ec1beb604159f15ccc7b78b562 138745dd96a63942a2757c0455159814d9888b80 Anwar Choukah <anwarchoukah@gmail.com> 1514489188 +0000	checkout: moving from version2 to version3
+138745dd96a63942a2757c0455159814d9888b80 b297cd2b254e47e4bb2d164e71a1f75f69d10bbf Anwar Choukah <anwarchoukah@gmail.com> 1514497357 +0000	commit: HEADER: Move to top and clean up .main. FOOTER: Add Social buttons with social-sprite
+b297cd2b254e47e4bb2d164e71a1f75f69d10bbf 45d54fdf2a4a148fe9482fc21770739ff25a2ebf Anwar Choukah <anwarchoukah@gmail.com> 1514497467 +0000	commit: gitignore .txt
+45d54fdf2a4a148fe9482fc21770739ff25a2ebf 4b02f6d87959acb122db3ff19a71bf63fe58af57 Anwar Choukah <anwarchoukah@gmail.com> 1514554565 +0000	commit: GITIGNORE: .codekit3 – hopefully this time
+4b02f6d87959acb122db3ff19a71bf63fe58af57 afdbb0b9670fa8dfe02f828ee20f540b135ec8d6 Anwar Choukah <anwarchoukah@gmail.com> 1514555272 +0000	commit: PROJECTS: Reorder html for h2 and kirbytext on snippet and template
+afdbb0b9670fa8dfe02f828ee20f540b135ec8d6 d0b06c35b79c7e74b62ed4f49c7c96dfb14ef6df Anwar Choukah <anwarchoukah@gmail.com> 1514555750 +0000	commit: TYPOGRAPHY: Better spacing around h1, h2, h3, etc. CONTENT: Migrate content from live site
+d0b06c35b79c7e74b62ed4f49c7c96dfb14ef6df f6f3aabecdf73b3ff12f54f8368b1c39d66cfeac Anwar Choukah <anwarchoukah@gmail.com> 1514555781 +0000	commit: .gitignore fix
+f6f3aabecdf73b3ff12f54f8368b1c39d66cfeac 243ac91d74819da17f7170856f00f51fd4b3b44c Anwar Choukah <anwarchoukah@gmail.com> 1514556399 +0000	commit: GITIGNORE: remove all .txt so content gets versioned
+243ac91d74819da17f7170856f00f51fd4b3b44c c325b94e44b4bb9ca2cd8704a6d94c99f03f35f5 Anwar Choukah <anwarchoukah@gmail.com> 1514898691 +0000	commit: HEADER: Make a bit more compact
+c325b94e44b4bb9ca2cd8704a6d94c99f03f35f5 d62e194f0ae2abdf6b80d3f57d742fcf47b35ca9 Anwar Choukah <anwarchoukah@gmail.com> 1514908628 +0000	commit: SIDEBAR: Fix pinboard link roll to be verical
+d62e194f0ae2abdf6b80d3f57d742fcf47b35ca9 1f3e77bb3b400bd2a5560df26e2969e6c2cf6c96 Anwar Choukah <anwarchoukah@gmail.com> 1514909712 +0000	commit: PROJECTS: Add Projects heading to snippet
+1f3e77bb3b400bd2a5560df26e2969e6c2cf6c96 ab66d9349bbe7ad19e07b9147d65a0fc5eea5e2a Anwar Choukah <anwarchoukah@gmail.com> 1514938451 +0000	commit: FOOTER: Fix positioning of social icons
+ab66d9349bbe7ad19e07b9147d65a0fc5eea5e2a 888442e32fb5d53d033166c09e3fb055455a1568 Anwar Choukah <anwarchoukah@gmail.com> 1515002830 +0000	commit: FOOTER: Individual social icons rather than a sprite
+888442e32fb5d53d033166c09e3fb055455a1568 785e19cfe9b196280d2f95f5d460781678146122 Anwar Choukah <anwarchoukah@gmail.com> 1515005844 +0000	commit: TEASERS: Make title more legible
+785e19cfe9b196280d2f95f5d460781678146122 c1e4e6b27f6e012d73910dc2025c54f7594bb685 Anwar Choukah <anwarchoukah@gmail.com> 1515007935 +0000	commit: FOOTER: Clean up, make more compact
+c1e4e6b27f6e012d73910dc2025c54f7594bb685 d3f508195108df94b0f6a612ef3c07190bf2fd6f Anwar Choukah <anwarchoukah@gmail.com> 1515081032 +0000	commit: CONTENT: Add Clio Media entry
+d3f508195108df94b0f6a612ef3c07190bf2fd6f 7e68fadbe3034a2b1ef1cd9e93a7d547e6e6f977 Anwar Choukah <anwarchoukah@gmail.com> 1515081115 +0000	commit: FOOTER: Social logos background-images get absolute urls
+7e68fadbe3034a2b1ef1cd9e93a7d547e6e6f977 ccf8fa26f6d3f3a528459f1bb52e9e932138c5c6 Anwar Choukah <anwarchoukah@gmail.com> 1515082348 +0000	commit: CONTENT: Edit Clio Media entry
+ccf8fa26f6d3f3a528459f1bb52e9e932138c5c6 1e4d4e24bb59d07499f0734fd75d9900e7bfa17b Anwar Choukah <anwarchoukah@gmail.com> 1517573313 +0000	commit: ADMIN: Addd anwarchoukah.sublime-project to root of folder, gitignore anwarchoukah.sublime-workspace
+1e4d4e24bb59d07499f0734fd75d9900e7bfa17b 6cf22feff60d567db5a015d416949ef7bf8d815d Anwar Choukah <anwarchoukah@gmail.com> 1518452197 +0000	commit: MAILCHIMP: Add template for email newsletters
+6cf22feff60d567db5a015d416949ef7bf8d815d dd190cf68d0328d55b0aed9410e1ec5ede59c5c4 Anwar Choukah <anwarchoukah@gmail.com> 1518454862 +0000	commit: MAILCHIMP: Remove from anwarchoukah project folder

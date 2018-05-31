@@ -1,19 +1,17 @@
 <?php snippet('header')?>
 
-  <main class="main" role="main">
+<main class="main" role="main">
 
-    <div class="text">
-      <h1><?php echo $page->title()->html()?></h1>
-<?php echo $page->text()->kirbytext()?>
-</div>
+  <div class="text">
+    <h1><?php echo $page->title()->html()?></h1>
+    <?php echo $page->text()->kirbytext()?>
+  </div>
 
-    <!-- HIDE THIS FOR IN CONSTRUCTION
+  <hr>
 
-    <hr>
+  <?php snippet('projects')?>
 
-<?php snippet('projects')?>
--->
-<?php snippet('sidebar')?>
+
 </main>
 
 <?php snippet('footer')?>
