@@ -2,7 +2,7 @@
 
   $form = new contactform(array(
     'to'       => 'Anwar <anwarchoukah@gmail.com>',
-    'from'     => 'Contact Form <choukah@me.com>',
+    'from'     => 'Contact Form <anwarchoukah@gmail.com>',
     'subject'  => 'New contact form request',
     'goto'     => $page->url() . '/status:thank-you'
   ));
@@ -12,10 +12,12 @@
 
   <?php if(param('status') == 'thank-you'): ?>
 
-  <h2>Thank you very much for your request</h2>
+  <h1>Thank you very much for your request</h1>
   <p class="contactform-text">I will get in contact as soon as possible</p>
 
   <?php else: ?>
+
+  <!-- <h1>Get in touch</h1> -->
 
   <form action="#contactform" method="post">
     <fieldset>

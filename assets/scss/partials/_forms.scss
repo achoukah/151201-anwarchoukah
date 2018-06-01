@@ -3,49 +3,75 @@
 
 
 #contactform {
-  width : 100%;
+  // width : 100%;
+  // max-width: 46em;
 
-  color : $colour-secondary;
+  // color : $colour-secondary;
 
+  form {
+    font-family: $font-body;
+  }
   small {
+    font-size: 0.818em;
+    // display: block;
+    color: $colour-secondary;
+    font-weight: 300;
+    text-align: right;
+    float: right;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
   }
 }
 .contactform-text {
 }
 .contactform-alert {
+  border: thin dashed $colour-alert;
+  color: $colour-alert;
+  background-color: $rd-tr;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 .contactform-field {
-  .error {
+  &.error {
+
+    .contactform-label {
+      color: $rd-dk;
+      font-weight: 400;
+    }
+    .contactform-input {
+      border-color: $colour-alert;
+    }
   }
 }
 .contactform-label {
   display : block;
 
-  margin-top : 0.5em;
+  margin-top : 1em;
   span {
-    color : red;
+    color : $rd-dk;
   }
 }
 .contactform-input {
-  font-size : 1em;
+  font-size : 0.9em;
 
   width : 100%;
   min-width : 100%;
-  max-width : 100%;
+  max-width: 46em;
   padding : 0.5em;
 
   border : thin solid $bk-tr-2;
   border-radius : 0;
 
   -webkit-appearance : none;
+  font-family: $font-body;
 }
 textarea.contactform-input {
-  width : 100%;
-  min-width : 100%;
-  max-width : 100%;
   height : 8em;
   min-height : 8em;
-  max-height : 8em
+  max-height : 16em;
+  display: block;
 }
 .contactform-help {
 }
@@ -62,6 +88,7 @@ textarea.contactform-input {
   cursor: pointer;
   transition: all .2s ease-in-out;
   font-weight: 300;
+  margin-left: auto;
 
 
   &:hover {

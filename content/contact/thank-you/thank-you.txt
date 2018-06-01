@@ -1,11 +1,9 @@
-Title: Thank you
+Title: Thank you very much for your request
 
 ----
 
 Text:
 
-## Get in touch
+I will get in contact as soon as possible
 
-I will attempt to get back you you as soon as possible.
-
-Back to (link: /projects text: Projects)
+Back to (link: / text: Home)
