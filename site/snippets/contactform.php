@@ -19,7 +19,7 @@
 
   <!-- <h1>Get in touch</h1> -->
 
-  <form action="#contactform" method="post">
+  <form method="POST" action="https://formspree.io/choukah@me.com">
     <fieldset>
 
       <?php if($form->isError('send')): ?>
